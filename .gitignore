@@ -11,6 +11,7 @@ tmp-*/
 tmp_*/
 ocr-text.json
 ocr-extra.json
+assets_answers/skipped.json
 
 # Local editor/OS noise
 .DS_Store

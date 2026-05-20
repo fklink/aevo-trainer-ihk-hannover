@@ -7,7 +7,7 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = ROOT / "originals" / "Prüfungsfragen HF bezogen"
-OUTPUT_DIR = ROOT / "assets_extra"
+OUTPUT_DIR = ROOT / "assets"
 META_PATH = ROOT / "source-question-images.json"
 
 
@@ -16,7 +16,7 @@ def main():
     files = sorted({path.resolve(): path for path in SOURCE_ROOT.rglob("*") if path.is_file() and path.suffix.lower() == ".pdf"}.values())
     items = []
     skipped = []
-    next_id = 49
+    next_id = 1
 
     for pdf_path in files:
         try:

@@ -1,8 +1,9 @@
-﻿{
+{
   "answers": {
     "originals/Prüfungsfragen HF bezogen/Ansprechpartner.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 531.461,
         "y": 379.168,
         "rect": [
@@ -16,6 +17,7 @@
     "originals/Prüfungsfragen HF bezogen/AO Planung d. Ausbildung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 529.798,
         "y": 454.617,
         "rect": [
@@ -29,6 +31,7 @@
     "originals/Prüfungsfragen HF bezogen/Auf negative Verhaltensweisen reagieren.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 529.798,
         "y": 495.68399999999997,
         "rect": [
@@ -40,6 +43,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.992,
         "y": 416.772,
         "rect": [
@@ -51,6 +55,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 259.752,
         "rect": [
@@ -64,6 +69,7 @@
     "originals/Prüfungsfragen HF bezogen/Aufgaben der BBS.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 537.85,
         "y": 415.966,
         "rect": [
@@ -75,6 +81,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 537.85,
         "y": 337.859,
         "rect": [
@@ -86,6 +93,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 300.013,
         "rect": [
@@ -97,6 +105,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 537.045,
         "y": 221.101,
         "rect": [
@@ -110,6 +119,7 @@
     "originals/Prüfungsfragen HF bezogen/Ausbildung in Deutschland.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 453.007,
         "rect": [
@@ -123,6 +133,7 @@
     "originals/Prüfungsfragen HF bezogen/Ausgleich von Defiziten.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.992,
         "y": 417.577,
         "rect": [
@@ -134,6 +145,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 378.926,
         "rect": [
@@ -147,6 +159,7 @@
     "originals/Prüfungsfragen HF bezogen/Aussagen zum Zeugnis.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 494.074,
         "rect": [
@@ -158,6 +171,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 337.054,
         "rect": [
@@ -169,6 +183,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 296.79200000000003,
         "rect": [
@@ -180,6 +195,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 219.49,
         "rect": [
@@ -193,6 +209,7 @@
     "originals/Prüfungsfragen HF bezogen/Auswahl (Reihenfolge).pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 528.989,
         "y": 494.879,
         "rect": [
@@ -204,6 +221,7 @@
       },
       {
         "text": "6",
+        "kind": "mark",
         "x": 527.3779999999999,
         "y": 457.033,
         "rect": [
@@ -215,6 +233,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 526.5730000000001,
         "y": 418.382,
         "rect": [
@@ -226,6 +245,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 524.962,
         "y": 377.315,
         "rect": [
@@ -237,6 +257,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 525.768,
         "y": 338.664,
         "rect": [
@@ -248,6 +269,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 527.3779999999999,
         "y": 298.403,
         "rect": [
@@ -261,6 +283,7 @@
     "originals/Prüfungsfragen HF bezogen/Auszahlung Vergütung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 494.074,
         "rect": [
@@ -272,6 +295,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 258.141,
         "rect": [
@@ -285,6 +309,7 @@
     "originals/Prüfungsfragen HF bezogen/BAB.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 377.315,
         "rect": [
@@ -298,6 +323,7 @@
     "originals/Prüfungsfragen HF bezogen/BBS Blockunterricht (1).pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 415.966,
         "rect": [
@@ -311,6 +337,7 @@
     "originals/Prüfungsfragen HF bezogen/Begriffe Leittextmehode.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.8240000000001,
         "y": 456.228,
         "rect": [
@@ -322,6 +349,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 532.213,
         "y": 378.121,
         "rect": [
@@ -333,6 +361,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 531.408,
         "y": 299.20799999999997,
         "rect": [
@@ -344,6 +373,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 221.101,
         "rect": [
@@ -355,6 +385,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.992,
         "y": 102.7321,
         "rect": [
@@ -366,6 +397,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 529.798,
         "y": 142.994,
         "rect": [
@@ -379,6 +411,7 @@
     "originals/Prüfungsfragen HF bezogen/Bestätigen des Ausbildungsberufs.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 519.33,
         "y": 501.321,
         "rect": [
@@ -390,6 +423,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 520.135,
         "y": 459.449,
         "rect": [
@@ -401,6 +435,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 519.33,
         "y": 345.106,
         "rect": [
@@ -412,6 +447,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 521.745,
         "y": 188.892,
         "rect": [
@@ -423,6 +459,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 519.33,
         "y": 111.58985,
         "rect": [
@@ -434,6 +471,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 520.94,
         "y": 70.523,
         "rect": [
@@ -447,6 +485,7 @@
     "originals/Prüfungsfragen HF bezogen/betriebliche Eignung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 494.074,
         "rect": [
@@ -458,6 +497,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 336.249,
         "rect": [
@@ -471,6 +511,7 @@
     "originals/Prüfungsfragen HF bezogen/Beurteiungssystem Betriebsrat.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 455.423,
         "rect": [
@@ -482,6 +523,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 376.51,
         "rect": [
@@ -495,6 +537,7 @@
     "originals/Prüfungsfragen HF bezogen/Durchgefallen Abschlprüf..pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 417.577,
         "rect": [
@@ -508,6 +551,7 @@
     "originals/Prüfungsfragen HF bezogen/Fehler Vortrag.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 456.228,
         "rect": [
@@ -519,6 +563,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 338.664,
         "rect": [
@@ -532,6 +577,7 @@
     "originals/Prüfungsfragen HF bezogen/Frist Erstuntersuchung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 537.045,
         "y": 417.577,
         "rect": [
@@ -546,6 +592,7 @@
     "originals/Prüfungsfragen HF bezogen/Förderung SQ.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 496.48900000000003,
         "rect": [
@@ -557,6 +604,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 419.187,
         "rect": [
@@ -568,6 +616,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 378.926,
         "rect": [
@@ -579,6 +628,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 223.517,
         "rect": [
@@ -592,6 +642,7 @@
     "originals/Prüfungsfragen HF bezogen/Gruppenart.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 532.213,
         "y": 381.3415,
         "rect": [
@@ -606,6 +657,7 @@
     "originals/Prüfungsfragen HF bezogen/Gute Beurteilung_Bewertung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 539.46,
         "y": 414.356,
         "rect": [
@@ -617,6 +669,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 539.46,
         "y": 337.054,
         "rect": [
@@ -628,6 +681,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 538.655,
         "y": 296.79200000000003,
         "rect": [
@@ -639,6 +693,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 540.266,
         "y": 221.101,
         "rect": [
@@ -652,6 +707,7 @@
     "originals/Prüfungsfragen HF bezogen/Handlungskompetenz.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.8240000000001,
         "y": 494.879,
         "rect": [
@@ -663,6 +719,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.8240000000001,
         "y": 454.617,
         "rect": [
@@ -674,6 +731,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 375.705,
         "rect": [
@@ -685,6 +743,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 258.947,
         "rect": [
@@ -698,6 +757,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Aufgaben 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 466.69989999999996,
         "rect": [
@@ -709,6 +769,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 425.89995,
         "rect": [
@@ -720,6 +781,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 308.53995,
         "rect": [
@@ -731,6 +793,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 230.29989999999998,
         "rect": [
@@ -744,6 +807,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Firmeninhaber.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 91.03995,
         "y": 431.78,
         "rect": [
@@ -757,6 +821,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Insolvenz.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 465.3798,
         "rect": [
@@ -770,6 +835,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Regelungen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.79985,
         "y": 458.29994999999997,
         "rect": [
@@ -781,6 +847,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 515.83995,
         "y": 423.01995,
         "rect": [
@@ -792,6 +859,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 517.76,
         "y": 310.45995,
         "rect": [
@@ -803,6 +871,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 517.76,
         "y": 273.25995,
         "rect": [
@@ -816,6 +885,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Schulpflicht.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 384.2599,
         "rect": [
@@ -829,6 +899,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 1.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 505.46000000000004,
         "rect": [
@@ -840,6 +911,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 526.39995,
         "y": 466.09979999999996,
         "rect": [
@@ -851,6 +923,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 527.35985,
         "y": 428.9,
         "rect": [
@@ -862,6 +935,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 526.39995,
         "y": 388.09979999999996,
         "rect": [
@@ -873,6 +947,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 527.35985,
         "y": 350.9,
         "rect": [
@@ -884,6 +959,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 526.6400000000001,
         "y": 309.86,
         "rect": [
@@ -897,6 +973,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 2.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 523.52,
         "y": 505.21990000000005,
         "rect": [
@@ -908,6 +985,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 526.39995,
         "y": 465.3798,
         "rect": [
@@ -919,6 +997,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 424.34000000000003,
         "rect": [
@@ -930,6 +1009,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 524.4799,
         "y": 389.06,
         "rect": [
@@ -941,6 +1021,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 527.35985,
         "y": 348.02,
         "rect": [
@@ -952,6 +1033,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 528.3199999999999,
         "y": 308.9,
         "rect": [
@@ -965,6 +1047,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 3.pdf": [
       {
         "text": "8",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 505.21990000000005,
         "rect": [
@@ -976,6 +1059,7 @@
       },
       {
         "text": "7",
+        "kind": "mark",
         "x": 523.52,
         "y": 462.49985,
         "rect": [
@@ -987,6 +1071,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 524.4799,
         "y": 424.34000000000003,
         "rect": [
@@ -998,6 +1083,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 526.39995,
         "y": 385.21985,
         "rect": [
@@ -1009,6 +1095,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 527.35985,
         "y": 346.09979999999996,
         "rect": [
@@ -1020,6 +1107,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 524.4799,
         "y": 308.9,
         "rect": [
@@ -1031,6 +1119,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 526.39995,
         "y": 268.81989999999996,
         "rect": [
@@ -1042,6 +1131,7 @@
       },
       {
         "text": "6",
+        "kind": "mark",
         "x": 526.39995,
         "y": 229.6999,
         "rect": [
@@ -1055,6 +1145,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Fachbezeichnung.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.72,
         "y": 183.86,
         "rect": [
@@ -1068,6 +1159,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Miguel-Asbg in Spanien.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 466.09979999999996,
         "rect": [
@@ -1081,6 +1173,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Miguel-EU Systeme.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.8799,
         "y": 297.37985000000003,
         "rect": [
@@ -1094,6 +1187,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Schultag als Urlaub.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 348.02,
         "rect": [
@@ -1107,6 +1201,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Abba.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 341.89995,
         "rect": [
@@ -1118,6 +1213,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 238.9399,
         "rect": [
@@ -1129,6 +1225,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.5199,
         "y": 185.41989999999998,
         "rect": [
@@ -1142,6 +1239,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Asb Abd.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 506.17994999999996,
         "rect": [
@@ -1153,6 +1251,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 467.06,
         "rect": [
@@ -1164,6 +1263,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 310.81989999999996,
         "rect": [
@@ -1175,6 +1275,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 271.6999,
         "rect": [
@@ -1188,6 +1289,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Asb Mann.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 512.23995,
         "y": 424.34000000000003,
         "rect": [
@@ -1199,6 +1301,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 386.18,
         "rect": [
@@ -1210,6 +1313,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 512.23995,
         "y": 311.78,
         "rect": [
@@ -1221,6 +1325,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.08,
         "y": 235.45999999999998,
         "rect": [
@@ -1234,6 +1339,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Betrieb.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 103.2798,
         "y": 350.5399,
         "rect": [
@@ -1247,6 +1353,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Rollen des Asb.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 427.21985,
         "rect": [
@@ -1258,6 +1365,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 386.18,
         "rect": [
@@ -1271,6 +1379,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Verantwortlicher  Abd.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 426.85995,
         "rect": [
@@ -1284,6 +1393,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/4 Merkmale des BBiG.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 466.09979999999996,
         "rect": [
@@ -1295,6 +1405,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 348.9799,
         "rect": [
@@ -1306,6 +1417,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 309.86,
         "rect": [
@@ -1317,6 +1429,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 231.61989999999997,
         "rect": [
@@ -1330,6 +1443,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/AO Mindestinhalte.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 428.18,
         "rect": [
@@ -1341,6 +1455,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 389.06,
         "rect": [
@@ -1352,6 +1467,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 310.81989999999996,
         "rect": [
@@ -1363,6 +1479,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 233.5399,
         "rect": [
@@ -1376,6 +1493,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BBiG Durchführung Asbg.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 466.09979999999996,
         "rect": [
@@ -1387,6 +1505,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 427.21985,
         "rect": [
@@ -1398,6 +1517,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 309.86,
         "rect": [
@@ -1409,6 +1529,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 271.6999,
         "rect": [
@@ -1422,6 +1543,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Block Rechtsquellen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 384.85995,
         "rect": [
@@ -1435,6 +1557,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 1.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 505.21990000000005,
         "rect": [
@@ -1446,6 +1569,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 465.3798,
         "rect": [
@@ -1457,6 +1581,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 524.4799,
         "y": 426.2599,
         "rect": [
@@ -1468,6 +1593,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 388.09979999999996,
         "rect": [
@@ -1479,6 +1605,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 524.4799,
         "y": 349.93985,
         "rect": [
@@ -1490,6 +1617,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 309.86,
         "rect": [
@@ -1503,6 +1631,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.089,
         "y": 429.503,
         "rect": [
@@ -1516,6 +1645,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.8799,
         "y": 392.9,
         "rect": [
@@ -1529,6 +1659,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Quelle Ausbildungsinhalte.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 500.4199,
         "rect": [
@@ -1540,6 +1671,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 308.9,
         "rect": [
@@ -1553,6 +1685,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/rechtlicher Rahmen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.32,
         "y": 502.22,
         "rect": [
@@ -1564,6 +1697,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 461.18,
         "rect": [
@@ -1575,6 +1709,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 384.85995,
         "rect": [
@@ -1586,6 +1721,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.64,
         "y": 310.81994999999995,
         "rect": [
@@ -1597,6 +1733,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.15995,
         "y": 267.49995,
         "rect": [
@@ -1608,6 +1745,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.15995,
         "y": 189.26,
         "rect": [
@@ -1619,6 +1757,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 113.9,
         "rect": [
@@ -1630,6 +1769,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.15995,
         "y": 69.97999999999999,
         "rect": [
@@ -1643,6 +1783,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Regelungen im BBiG.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 495.88995,
         "y": 434.12,
         "rect": [
@@ -1654,6 +1795,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 495.88995,
         "y": 389.3,
         "rect": [
@@ -1665,6 +1807,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 496.7899,
         "y": 340.52,
         "rect": [
@@ -1676,6 +1819,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 495.71000000000004,
         "y": 270.86,
         "rect": [
@@ -1687,6 +1831,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 496.7899,
         "y": 247.81995,
         "rect": [
@@ -1698,6 +1843,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 495.71000000000004,
         "y": 220.10000000000002,
         "rect": [
@@ -1709,6 +1855,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 495.88995,
         "y": 151.51999999999998,
         "rect": [
@@ -1720,6 +1867,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 495.88995,
         "y": 127.58,
         "rect": [
@@ -1733,6 +1881,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Sozi Vers.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 464.4199,
         "rect": [
@@ -1744,6 +1893,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 348.02,
         "rect": [
@@ -1755,6 +1905,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 269.78,
         "rect": [
@@ -1766,6 +1917,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 232.57999999999998,
         "rect": [
@@ -1779,6 +1931,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 535.76,
         "y": 501.7998,
         "rect": [
@@ -1790,6 +1943,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 535.76,
         "y": 382.63980000000004,
         "rect": [
@@ -1803,6 +1957,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 504.25985000000003,
         "rect": [
@@ -1814,6 +1969,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 387.13995,
         "rect": [
@@ -1827,6 +1983,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.8799,
         "y": 431.78,
         "rect": [
@@ -1840,6 +1997,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Planung/Ausbildungszeiten.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.5598,
         "y": 345.73995,
         "rect": [
@@ -1853,6 +2011,7 @@
     "originals/Prüfungsfragen HF bezogen/HF1/Planung/Miguel-Schulabschluss.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 467.06,
         "rect": [
@@ -1866,6 +2025,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/8-W-Fragen.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 378.926,
         "rect": [
@@ -1879,6 +2039,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/Anrechnung Schulabschlüsse.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 282.32,
         "y": 409.57995,
         "rect": [
@@ -1890,6 +2051,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 358.64,
         "y": 381.01995,
         "rect": [
@@ -1901,6 +2063,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 279.44,
         "y": 353.4199,
         "rect": [
@@ -1912,6 +2075,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 210.8,
         "y": 328.45995,
         "rect": [
@@ -1923,6 +2087,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 353.8399,
         "y": 300.85985,
         "rect": [
@@ -1934,6 +2099,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 356.72,
         "y": 275.1799,
         "rect": [
@@ -1945,6 +2111,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 281.35985,
         "y": 247.57995,
         "rect": [
@@ -1956,6 +2123,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 357.6799,
         "y": 219.7399,
         "rect": [
@@ -1967,6 +2135,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 356.72,
         "y": 193.0999,
         "rect": [
@@ -1978,6 +2147,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 356.72,
         "y": 164.54000000000002,
         "rect": [
@@ -1989,6 +2159,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 357.6799,
         "y": 136.93995,
         "rect": [
@@ -2000,6 +2171,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 210.8,
         "y": 111.97999999999999,
         "rect": [
@@ -2013,6 +2185,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/BAV Unterlagen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 502.9399,
         "rect": [
@@ -2024,6 +2197,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 424.93994999999995,
         "rect": [
@@ -2035,6 +2209,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 306.61995,
         "rect": [
@@ -2046,6 +2221,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 267.49995,
         "rect": [
@@ -2059,6 +2235,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/BAV Verantwortlich.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.87995,
         "y": 323.29994999999997,
         "rect": [
@@ -2075,6 +2252,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 389.06,
         "rect": [
@@ -2088,6 +2266,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 429.13995,
         "rect": [
@@ -2099,6 +2278,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 350.9,
         "rect": [
@@ -2113,6 +2293,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/nichtige Vereinbarungen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.6399,
         "y": 433.33995000000004,
         "rect": [
@@ -2124,6 +2305,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.6399,
         "y": 359.89995,
         "rect": [
@@ -2135,6 +2317,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.6399,
         "y": 333.2599,
         "rect": [
@@ -2146,6 +2329,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.6399,
         "y": 237.98000000000002,
         "rect": [
@@ -2159,6 +2343,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/BAV/Zuordnung Gesetze BAV.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 227.36,
         "y": 266.9,
         "rect": [
@@ -2170,6 +2355,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 225.44,
         "y": 319.46000000000004,
         "rect": [
@@ -2181,6 +2367,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 509.35995,
         "y": 396.49985,
         "rect": [
@@ -2192,6 +2379,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 508.4,
         "y": 191.5399,
         "rect": [
@@ -2205,6 +2393,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Auswahlverfahren Bkm.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 503.29994999999997,
         "rect": [
@@ -2216,6 +2405,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 465.3798,
         "rect": [
@@ -2227,6 +2417,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 388.09979999999996,
         "rect": [
@@ -2238,6 +2429,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 270.73995,
         "rect": [
@@ -2251,6 +2443,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Auswahlverfahren ZM.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 466.09979999999996,
         "rect": [
@@ -2262,6 +2455,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 428.18,
         "rect": [
@@ -2273,6 +2467,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 348.02,
         "rect": [
@@ -2284,6 +2479,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 270.73995,
         "rect": [
@@ -2295,6 +2491,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 231.61989999999997,
         "rect": [
@@ -2306,6 +2503,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 151.45999999999998,
         "rect": [
@@ -2319,6 +2517,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 427.21985,
         "rect": [
@@ -2330,6 +2529,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 349.93985,
         "rect": [
@@ -2343,6 +2543,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.39995,
         "y": 282.85985,
         "rect": [
@@ -2354,6 +2555,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.39995,
         "y": 179.6599,
         "rect": [
@@ -2367,6 +2569,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.15995000000001,
         "y": 431.0599,
         "rect": [
@@ -2378,6 +2581,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.15995000000001,
         "y": 382.57984999999996,
         "rect": [
@@ -2389,6 +2593,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 338.4199,
         "rect": [
@@ -2400,6 +2605,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 313.6999,
         "rect": [
@@ -2411,6 +2617,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.15995000000001,
         "y": 236.66,
         "rect": [
@@ -2422,6 +2629,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.15995000000001,
         "y": 211.94,
         "rect": [
@@ -2435,6 +2643,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsunterlagen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 502.9399,
         "rect": [
@@ -2446,6 +2655,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 347.65995,
         "rect": [
@@ -2459,6 +2669,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Gruppengespräch.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 504.25985000000003,
         "rect": [
@@ -2470,6 +2681,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 428.18,
         "rect": [
@@ -2481,6 +2693,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 348.02,
         "rect": [
@@ -2492,6 +2705,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 230.66000000000003,
         "rect": [
@@ -2505,6 +2719,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Anfoderungen Asbg perso.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 466.09979999999996,
         "rect": [
@@ -2516,6 +2731,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 387.13995,
         "rect": [
@@ -2527,6 +2743,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 307.93989999999997,
         "rect": [
@@ -2540,6 +2757,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Sozialkompetenz.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 426.2599,
         "rect": [
@@ -2551,6 +2769,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 389.06,
         "rect": [
@@ -2564,6 +2783,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Technologischer Wandel.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 428.18,
         "rect": [
@@ -2575,6 +2795,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 389.06,
         "rect": [
@@ -2586,6 +2807,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 309.86,
         "rect": [
@@ -2597,6 +2819,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 521.59995,
         "y": 271.6999,
         "rect": [
@@ -2608,6 +2831,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 232.57999999999998,
         "rect": [
@@ -2619,6 +2843,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 154.3399,
         "rect": [
@@ -2632,6 +2857,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Lernorte/Lerninsel.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 424.34000000000003,
         "rect": [
@@ -2645,6 +2871,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Lernorte/LO Arbeitsplatz.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 468.02,
         "rect": [
@@ -2656,6 +2883,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 348.02,
         "rect": [
@@ -2667,6 +2895,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 269.78,
         "rect": [
@@ -2678,6 +2907,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 231.61989999999997,
         "rect": [
@@ -2691,6 +2921,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Ansprechpartner IHK.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 386.18,
         "rect": [
@@ -2704,6 +2935,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Betrieblicher AP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 348.9799,
         "rect": [
@@ -2717,6 +2949,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Einflüsse.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.75995,
         "y": 400.34000000000003,
         "rect": [
@@ -2728,6 +2961,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.8799,
         "y": 297.37985000000003,
         "rect": [
@@ -2739,6 +2973,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 86.65995000000001,
         "rect": [
@@ -2752,6 +2987,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Individueller AP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.08,
         "y": 370.81985,
         "rect": [
@@ -2765,6 +3001,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Inhalte auf Abteilung.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 386.7799,
         "rect": [
@@ -2778,6 +3015,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Miguel-FuK.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 461.5399,
         "rect": [
@@ -2791,6 +3029,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Abstimmung im Betrieb.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 505.81989999999996,
         "rect": [
@@ -2802,6 +3041,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 427.81989999999996,
         "rect": [
@@ -2813,6 +3053,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 529.0399,
         "y": 348.61995,
         "rect": [
@@ -2826,6 +3067,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Auswahl von Asbgplätze.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 515.83995,
         "y": 458.29994999999997,
         "rect": [
@@ -2837,6 +3079,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.79985,
         "y": 422.05989999999997,
         "rect": [
@@ -2848,6 +3091,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.79985,
         "y": 309.49995,
         "rect": [
@@ -2861,6 +3105,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Auswirkungen auf AP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 499.6999,
         "rect": [
@@ -2872,6 +3117,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 424.34000000000003,
         "rect": [
@@ -2883,6 +3129,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 349.93985,
         "rect": [
@@ -2896,6 +3143,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Einflüsse auf Asbg.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 503.29994999999997,
         "rect": [
@@ -2907,6 +3155,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 428.18,
         "rect": [
@@ -2918,6 +3167,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 348.02,
         "rect": [
@@ -2929,6 +3179,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 309.86,
         "rect": [
@@ -2942,6 +3193,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Inhalte Fu.K Verbund.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 465.3798,
         "rect": [
@@ -2953,6 +3205,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 347.06,
         "rect": [
@@ -2966,6 +3219,7 @@
     "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Voraussetzungen Asbg.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 465.3798,
         "rect": [
@@ -2977,6 +3231,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 427.21985,
         "rect": [
@@ -2990,6 +3245,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/1. Ausbildungstag 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 93.9198,
         "y": 486.2599,
         "rect": [
@@ -3001,6 +3257,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 437.5399,
         "rect": [
@@ -3012,6 +3269,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 390.02,
         "rect": [
@@ -3023,6 +3281,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.8799,
         "y": 364.09979999999996,
         "rect": [
@@ -3034,6 +3293,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 339.3798,
         "rect": [
@@ -3045,6 +3305,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 93.9198,
         "y": 291.61990000000003,
         "rect": [
@@ -3058,6 +3319,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/1. Ausbildungstag 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 353.4199,
         "rect": [
@@ -3069,6 +3331,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 328.45995,
         "rect": [
@@ -3080,6 +3343,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 279.97995000000003,
         "rect": [
@@ -3091,6 +3355,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 254.0599,
         "rect": [
@@ -3102,6 +3367,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 207.49995,
         "rect": [
@@ -3113,6 +3379,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 181.5799,
         "rect": [
@@ -3126,6 +3393,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/Probezeit.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 425.3,
         "rect": [
@@ -3137,6 +3405,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 387.13995,
         "rect": [
@@ -3150,6 +3419,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Ausbildungsmittel 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 388.09979999999996,
         "rect": [
@@ -3163,6 +3433,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Ausbildungsmittel 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 385.21985,
         "rect": [
@@ -3176,6 +3447,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Medieneinsatz.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 504.25985000000003,
         "rect": [
@@ -3187,6 +3459,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 425.3,
         "rect": [
@@ -3198,6 +3471,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 269.78,
         "rect": [
@@ -3209,6 +3483,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 229.6999,
         "rect": [
@@ -3222,6 +3497,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Anlässe.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 503.90000000000003,
         "rect": [
@@ -3233,6 +3509,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 424.93994999999995,
         "rect": [
@@ -3244,6 +3521,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 346.69989999999996,
         "rect": [
@@ -3255,6 +3533,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 230.29989999999998,
         "rect": [
@@ -3268,6 +3547,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Beurteilungsfehler.pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 525.43995,
         "y": 421.46000000000004,
         "rect": [
@@ -3279,6 +3559,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 524.4799,
         "y": 375.62,
         "rect": [
@@ -3290,6 +3571,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 524.4799,
         "y": 324.02,
         "rect": [
@@ -3301,6 +3583,7 @@
       },
       {
         "text": "6",
+        "kind": "mark",
         "x": 524.4799,
         "y": 276.49995,
         "rect": [
@@ -3312,6 +3595,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 526.4000000000001,
         "y": 229.69995,
         "rect": [
@@ -3323,6 +3607,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 524.4799,
         "y": 179.05995000000001,
         "rect": [
@@ -3336,6 +3621,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 1.pdf": [
       {
         "text": "5",
+        "kind": "mark",
         "x": 94.63995,
         "y": 390.61995,
         "rect": [
@@ -3347,6 +3633,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 93.67994999999999,
         "y": 337.09995000000004,
         "rect": [
@@ -3358,6 +3645,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 93.67994999999999,
         "y": 283.82,
         "rect": [
@@ -3369,6 +3657,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 93.67994999999999,
         "y": 235.0999,
         "rect": [
@@ -3380,6 +3669,7 @@
       },
       {
         "text": "6",
+        "kind": "mark",
         "x": 92.95984999999999,
         "y": 183.86,
         "rect": [
@@ -3391,6 +3681,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 92.95984999999999,
         "y": 130.57999999999998,
         "rect": [
@@ -3405,6 +3696,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 3 (12).pdf": [
       {
         "text": "7",
+        "kind": "mark",
         "x": 97.75999999999999,
         "y": 481.46000000000004,
         "rect": [
@@ -3416,6 +3708,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 98.71995000000001,
         "y": 457.6999,
         "rect": [
@@ -3427,6 +3720,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 98.71995000000001,
         "y": 433.6999,
         "rect": [
@@ -3438,6 +3732,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 96.79995,
         "y": 408.02,
         "rect": [
@@ -3449,6 +3744,7 @@
       },
       {
         "text": "6",
+        "kind": "mark",
         "x": 98.71995000000001,
         "y": 385.21985,
         "rect": [
@@ -3460,6 +3756,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 95.83995,
         "y": 360.2599,
         "rect": [
@@ -3471,6 +3768,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 96.79995,
         "y": 336.49985,
         "rect": [
@@ -3482,6 +3780,7 @@
       },
       {
         "text": "9",
+        "kind": "mark",
         "x": 97.75999999999999,
         "y": 312.74,
         "rect": [
@@ -3493,6 +3792,7 @@
       },
       {
         "text": "8",
+        "kind": "mark",
         "x": 96.79995,
         "y": 287.78,
         "rect": [
@@ -3504,6 +3804,7 @@
       },
       {
         "text": "12",
+        "kind": "mark",
         "x": 97.9999,
         "y": 267.86,
         "rect": [
@@ -3515,6 +3816,7 @@
       },
       {
         "text": "10",
+        "kind": "mark",
         "x": 96.79990000000001,
         "y": 239.3,
         "rect": [
@@ -3526,6 +3828,7 @@
       },
       {
         "text": "11",
+        "kind": "mark",
         "x": 97.03985,
         "y": 218.17995,
         "rect": [
@@ -3539,6 +3842,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Lernmotivation.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 92.9599,
         "y": 400.34000000000003,
         "rect": [
@@ -3550,6 +3854,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 92.9599,
         "y": 242.17995,
         "rect": [
@@ -3563,6 +3868,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Lerntechniken 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.75995,
         "y": 344.18,
         "rect": [
@@ -3574,6 +3880,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 287.4199,
         "rect": [
@@ -3587,6 +3894,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Lernziele-Lernbereiche.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 227.36,
         "y": 391.93985,
         "rect": [
@@ -3598,6 +3906,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 297.68,
         "y": 366.9799,
         "rect": [
@@ -3609,6 +3918,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 224.4799,
         "y": 339.3798,
         "rect": [
@@ -3620,6 +3930,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 298.63995,
         "y": 318.49995,
         "rect": [
@@ -3631,6 +3942,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 369.1999,
         "y": 287.78,
         "rect": [
@@ -3642,6 +3954,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 224.4799,
         "y": 264.9799,
         "rect": [
@@ -3653,6 +3966,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 365.36,
         "y": 238.3399,
         "rect": [
@@ -3664,6 +3978,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 364.4,
         "y": 208.81995,
         "rect": [
@@ -3677,6 +3992,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Motivation.pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 517.75985,
         "y": 496.45995,
         "rect": [
@@ -3688,6 +4004,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 518.7199,
         "y": 383.89995,
         "rect": [
@@ -3699,6 +4016,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 520.6399,
         "y": 458.29994999999997,
         "rect": [
@@ -3710,6 +4028,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 520.6399,
         "y": 421.09995000000004,
         "rect": [
@@ -3723,6 +4042,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Eigeninitiative fördern .pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 466.09979999999996,
         "rect": [
@@ -3734,6 +4054,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 309.86,
         "rect": [
@@ -3745,6 +4066,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 228.73989999999998,
         "rect": [
@@ -3756,6 +4078,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 189.61989999999997,
         "rect": [
@@ -3769,6 +4092,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Führungsstile.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 530.0,
         "y": 466.69989999999996,
         "rect": [
@@ -3780,6 +4104,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 349.57995,
         "rect": [
@@ -3793,6 +4118,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Arbeitsergebnis.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 501.01995,
         "rect": [
@@ -3804,6 +4130,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.2399,
         "y": 382.93994999999995,
         "rect": [
@@ -3817,6 +4144,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 281.59985,
         "y": 408.9799,
         "rect": [
@@ -3828,6 +4156,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 348.31985,
         "y": 383.3,
         "rect": [
@@ -3839,6 +4168,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 283.52,
         "y": 358.34000000000003,
         "rect": [
@@ -3850,6 +4180,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 208.16000000000003,
         "y": 329.78,
         "rect": [
@@ -3861,6 +4192,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 351.1999,
         "y": 306.02,
         "rect": [
@@ -3872,6 +4204,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 210.07999999999998,
         "y": 277.46000000000004,
         "rect": [
@@ -3885,6 +4218,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 2.pdf": [
       {
         "text": "3",
+        "kind": "mark",
         "x": 513.2,
         "y": 496.81985,
         "rect": [
@@ -3896,6 +4230,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 514.1599,
         "y": 461.5399,
         "rect": [
@@ -3907,6 +4242,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 514.1599,
         "y": 424.34000000000003,
         "rect": [
@@ -3918,6 +4254,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 516.3199999999999,
         "y": 386.18,
         "rect": [
@@ -3929,6 +4266,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 514.1599,
         "y": 347.06,
         "rect": [
@@ -3940,6 +4278,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 516.7999,
         "y": 312.74,
         "rect": [
@@ -3951,6 +4290,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 516.0799999999999,
         "y": 273.61990000000003,
         "rect": [
@@ -3962,6 +4302,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 515.1199,
         "y": 241.22000000000003,
         "rect": [
@@ -3975,6 +4316,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 425.89995,
         "rect": [
@@ -3986,6 +4328,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 388.69989999999996,
         "rect": [
@@ -3999,6 +4342,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Auswertung der ZwP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 460.58000000000004,
         "rect": [
@@ -4010,6 +4354,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 349.93985,
         "rect": [
@@ -4021,6 +4366,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 311.78,
         "rect": [
@@ -4032,6 +4378,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 274.58000000000004,
         "rect": [
@@ -4045,6 +4392,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Grundsätze.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 504.25985000000003,
         "rect": [
@@ -4056,6 +4404,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 387.13995,
         "rect": [
@@ -4069,6 +4418,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Lerntransfer.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 384.85995,
         "rect": [
@@ -4080,6 +4430,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 308.53995,
         "rect": [
@@ -4093,6 +4444,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Manuel u. Alexandra.pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.04,
         "y": 501.97985,
         "rect": [
@@ -4104,6 +4456,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 528.0798500000001,
         "y": 463.09995000000004,
         "rect": [
@@ -4115,6 +4468,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.04,
         "y": 424.93994999999995,
         "rect": [
@@ -4126,6 +4480,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 529.04,
         "y": 385.81989999999996,
         "rect": [
@@ -4137,6 +4492,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 529.04,
         "y": 345.73995,
         "rect": [
@@ -4148,6 +4504,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 529.99995,
         "y": 306.61995,
         "rect": [
@@ -4161,6 +4518,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/4SM 1.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 529.04,
         "y": 503.90000000000003,
         "rect": [
@@ -4172,6 +4530,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 528.0798500000001,
         "y": 464.7799,
         "rect": [
@@ -4183,6 +4542,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 529.99995,
         "y": 426.85995,
         "rect": [
@@ -4194,6 +4554,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.99995,
         "y": 386.7799,
         "rect": [
@@ -4205,6 +4566,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 527.11995,
         "y": 347.65995,
         "rect": [
@@ -4216,6 +4578,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 527.11995,
         "y": 306.61995,
         "rect": [
@@ -4227,6 +4590,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 530.9599499999999,
         "y": 273.25995,
         "rect": [
@@ -4238,6 +4602,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.04,
         "y": 231.26,
         "rect": [
@@ -4251,6 +4616,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/4SM 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 520.64,
         "y": 496.45995,
         "rect": [
@@ -4262,6 +4628,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 518.71995,
         "y": 458.29994999999997,
         "rect": [
@@ -4273,6 +4640,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 519.67985,
         "y": 345.73995,
         "rect": [
@@ -4284,6 +4652,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.79985,
         "y": 273.25995,
         "rect": [
@@ -4295,6 +4664,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.79985,
         "y": 236.0599,
         "rect": [
@@ -4306,6 +4676,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 518.71995,
         "y": 160.7,
         "rect": [
@@ -4319,6 +4690,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Ausbildugsziele.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 428.18,
         "rect": [
@@ -4332,6 +4704,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/darbietende Methoden 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 427.21985,
         "rect": [
@@ -4343,6 +4716,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 349.93985,
         "rect": [
@@ -4356,6 +4730,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/darbietende Methoden 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 449.06,
         "rect": [
@@ -4369,6 +4744,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Fremd- u. Selbststeuerung.pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 520.8799,
         "y": 502.34000000000003,
         "rect": [
@@ -4380,6 +4756,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 467.06,
         "rect": [
@@ -4391,6 +4768,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 427.21985,
         "rect": [
@@ -4402,6 +4780,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 390.9799,
         "rect": [
@@ -4413,6 +4792,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 524.4799,
         "y": 348.9799,
         "rect": [
@@ -4424,6 +4804,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 312.74,
         "rect": [
@@ -4437,6 +4818,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/für die Gemeinschaft.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 427.21985,
         "rect": [
@@ -4448,6 +4830,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 309.86,
         "rect": [
@@ -4461,6 +4844,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Kurzvortrag 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 93.9198,
         "y": 286.81989999999996,
         "rect": [
@@ -4474,6 +4858,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Kurzvortrag 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.91995,
         "y": 496.45995,
         "rect": [
@@ -4485,6 +4870,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.88,
         "y": 422.05989999999997,
         "rect": [
@@ -4496,6 +4882,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.88,
         "y": 309.49995,
         "rect": [
@@ -4507,6 +4894,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.79985,
         "y": 235.0999,
         "rect": [
@@ -4520,6 +4908,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lehrgespräch 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 529.0399,
         "y": 345.73995,
         "rect": [
@@ -4531,6 +4920,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 530.0,
         "y": 293.1799,
         "rect": [
@@ -4544,6 +4934,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lernhilfen 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 339.3798,
         "rect": [
@@ -4557,6 +4948,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lernhilfen 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 423.3798,
         "rect": [
@@ -4570,6 +4962,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lernziel vollständig.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 388.09979999999996,
         "rect": [
@@ -4583,6 +4976,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/LG Grundsätze.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 500.29994999999997,
         "rect": [
@@ -4594,6 +4988,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 468.2599,
         "rect": [
@@ -4605,6 +5000,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 385.81989999999996,
         "rect": [
@@ -4616,6 +5012,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.35995,
         "y": 312.74,
         "rect": [
@@ -4629,6 +5026,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/LG W-Fragen.pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 527.11995,
         "y": 502.9399,
         "rect": [
@@ -4640,6 +5038,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 525.1999000000001,
         "y": 464.7799,
         "rect": [
@@ -4651,6 +5050,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 527.11995,
         "y": 425.89995,
         "rect": [
@@ -4662,6 +5062,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.04,
         "y": 386.7799,
         "rect": [
@@ -4673,6 +5074,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 527.11995,
         "y": 346.69989999999996,
         "rect": [
@@ -4684,6 +5086,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.04,
         "y": 309.49995,
         "rect": [
@@ -4695,6 +5098,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 529.04,
         "y": 268.45995,
         "rect": [
@@ -4706,6 +5110,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 528.0798500000001,
         "y": 229.34,
         "rect": [
@@ -4719,6 +5124,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Methodenmix Pjm.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 473.4199,
         "rect": [
@@ -4730,6 +5136,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 424.93994999999995,
         "rect": [
@@ -4741,6 +5148,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.39995,
         "y": 326.5399,
         "rect": [
@@ -4752,6 +5160,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.5199,
         "y": 303.73995,
         "rect": [
@@ -4763,6 +5172,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.5199,
         "y": 254.0599,
         "rect": [
@@ -4774,6 +5184,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 229.34,
         "rect": [
@@ -4785,6 +5196,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 178.7,
         "rect": [
@@ -4796,6 +5208,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.5199,
         "y": 154.9399,
         "rect": [
@@ -4809,6 +5222,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/moderietes Gespräch.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 502.34000000000003,
         "rect": [
@@ -4820,6 +5234,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 385.21985,
         "rect": [
@@ -4831,6 +5246,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 308.9,
         "rect": [
@@ -4842,6 +5258,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 269.78,
         "rect": [
@@ -4855,6 +5272,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Mängel in der ZwP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 257.89995,
         "rect": [
@@ -4866,6 +5284,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.5598,
         "y": 280.93994999999995,
         "rect": [
@@ -4877,6 +5296,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.5199,
         "y": 306.61995,
         "rect": [
@@ -4890,6 +5310,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Rollenspiel 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 502.9399,
         "rect": [
@@ -4901,6 +5322,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 385.81989999999996,
         "rect": [
@@ -4912,6 +5334,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 269.4199,
         "rect": [
@@ -4925,6 +5348,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Rollenspiel 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 535.0399,
         "y": 346.09979999999996,
         "rect": [
@@ -4936,6 +5360,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 535.99995,
         "y": 187.6999,
         "rect": [
@@ -4949,6 +5374,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Selbstgesteuertes Lernen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 234.14,
         "rect": [
@@ -4960,6 +5386,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.72,
         "y": 131.53995,
         "rect": [
@@ -4973,6 +5400,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/themenvers GA.pdf": [
       {
         "text": "3",
+        "kind": "mark",
         "x": 526.1599000000001,
         "y": 501.97985,
         "rect": [
@@ -4984,6 +5412,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 527.11995,
         "y": 465.73995,
         "rect": [
@@ -4995,6 +5424,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 527.11995,
         "y": 425.89995,
         "rect": [
@@ -5006,6 +5436,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 528.0798500000001,
         "y": 386.7799,
         "rect": [
@@ -5017,6 +5448,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 527.11995,
         "y": 346.69989999999996,
         "rect": [
@@ -5028,6 +5460,7 @@
       },
       {
         "text": "7",
+        "kind": "mark",
         "x": 526.1599000000001,
         "y": 307.57995,
         "rect": [
@@ -5039,6 +5472,7 @@
       },
       {
         "text": "6",
+        "kind": "mark",
         "x": 527.11995,
         "y": 271.33995000000004,
         "rect": [
@@ -5050,6 +5484,7 @@
       },
       {
         "text": "8",
+        "kind": "mark",
         "x": 525.1999000000001,
         "y": 229.34,
         "rect": [
@@ -5063,6 +5498,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Unterweisungsformen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 92.72,
         "y": 392.5399,
         "rect": [
@@ -5074,6 +5510,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 92.72,
         "y": 339.97990000000004,
         "rect": [
@@ -5085,6 +5522,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 91.75995,
         "y": 234.14,
         "rect": [
@@ -5098,6 +5536,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Verhaltensregeln Moderator.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 464.05989999999997,
         "rect": [
@@ -5109,6 +5548,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 97.99995,
         "y": 418.58000000000004,
         "rect": [
@@ -5120,6 +5560,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.39995,
         "y": 394.81985,
         "rect": [
@@ -5131,6 +5572,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 342.85995,
         "rect": [
@@ -5142,6 +5584,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 271.33995000000004,
         "rect": [
@@ -5153,6 +5596,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 222.6199,
         "rect": [
@@ -5166,6 +5610,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Wahl der Methode.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 521.59995,
         "y": 503.29994999999997,
         "rect": [
@@ -5177,6 +5622,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 426.2599,
         "rect": [
@@ -5188,6 +5634,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 388.09979999999996,
         "rect": [
@@ -5199,6 +5646,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 521.59995,
         "y": 311.78,
         "rect": [
@@ -5212,6 +5660,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Beratung 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 512.23995,
         "y": 461.5399,
         "rect": [
@@ -5223,6 +5672,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 512.23995,
         "y": 424.34000000000003,
         "rect": [
@@ -5234,6 +5684,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 348.02,
         "rect": [
@@ -5245,6 +5696,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 512.23995,
         "y": 273.61990000000003,
         "rect": [
@@ -5258,6 +5710,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Hans 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 427.21985,
         "rect": [
@@ -5271,6 +5724,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Hans 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 518.71995,
         "y": 323.65995,
         "rect": [
@@ -5284,6 +5738,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Hans 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 466.09979999999996,
         "rect": [
@@ -5297,6 +5752,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Irina-bes. Aufgabe.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 424.93994999999995,
         "rect": [
@@ -5310,6 +5766,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Irina-Lager.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 324.9799,
         "rect": [
@@ -5321,6 +5778,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 233.5399,
         "rect": [
@@ -5334,6 +5792,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Irina-Sozialamt.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 287.78,
         "rect": [
@@ -5345,6 +5804,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 183.86,
         "rect": [
@@ -5356,6 +5816,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 130.57999999999998,
         "rect": [
@@ -5369,6 +5830,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Konflikte.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 370.81985,
         "rect": [
@@ -5380,6 +5842,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 227.7799,
         "rect": [
@@ -5393,6 +5856,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Lernschwierigkeiten.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 503.29994999999997,
         "rect": [
@@ -5404,6 +5868,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 427.21985,
         "rect": [
@@ -5415,6 +5880,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 387.13995,
         "rect": [
@@ -5426,6 +5892,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 307.93989999999997,
         "rect": [
@@ -5437,6 +5904,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 228.73989999999998,
         "rect": [
@@ -5448,6 +5916,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 189.61989999999997,
         "rect": [
@@ -5461,6 +5930,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Probleme/mit dem Lernort.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 502.9399,
         "rect": [
@@ -5472,6 +5942,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 466.69989999999996,
         "rect": [
@@ -5483,6 +5954,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 387.73995,
         "rect": [
@@ -5494,6 +5966,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 529.0399,
         "y": 348.61995,
         "rect": [
@@ -5505,6 +5978,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 231.26,
         "rect": [
@@ -5516,6 +5990,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 150.14,
         "rect": [
@@ -5529,6 +6004,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ fördern.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 474.37995,
         "rect": [
@@ -5540,6 +6016,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 423.97990000000004,
         "rect": [
@@ -5551,6 +6028,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 99.44,
         "y": 376.21995000000004,
         "rect": [
@@ -5562,6 +6040,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.5999,
         "y": 303.73995,
         "rect": [
@@ -5573,6 +6052,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.5598,
         "y": 278.05989999999997,
         "rect": [
@@ -5584,6 +6064,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.5598,
         "y": 205.5799,
         "rect": [
@@ -5597,6 +6078,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ im Team 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 424.93994999999995,
         "rect": [
@@ -5608,6 +6090,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.2399,
         "y": 345.73995,
         "rect": [
@@ -5619,6 +6102,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.2399,
         "y": 229.34,
         "rect": [
@@ -5630,6 +6114,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.2399,
         "y": 152.0599,
         "rect": [
@@ -5643,6 +6128,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ im Team 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 497.78,
         "rect": [
@@ -5654,6 +6140,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.08,
         "y": 387.13995,
         "rect": [
@@ -5667,6 +6154,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Gruppen im Betrieb.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 530.96,
         "y": 390.61995,
         "rect": [
@@ -5680,6 +6168,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Gruppendynamische Prozesse.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 102.08,
         "y": 345.73995,
         "rect": [
@@ -5693,6 +6182,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Irina-Partnerarbeit.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 505.21990000000005,
         "rect": [
@@ -5706,6 +6196,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Lernverhalten.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 89.1199,
         "y": 294.4999,
         "rect": [
@@ -5720,6 +6211,7 @@
     "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Sozialformen 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 346.09979999999996,
         "rect": [
@@ -5733,6 +6225,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Abschluss ohne Ausbildung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 415.966,
         "rect": [
@@ -5744,6 +6237,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 376.51,
         "rect": [
@@ -5757,6 +6251,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Antworten zum PA.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 461.5399,
         "rect": [
@@ -5768,6 +6263,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 425.3,
         "rect": [
@@ -5779,6 +6275,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 236.41989999999998,
         "rect": [
@@ -5790,6 +6287,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 199.22000000000003,
         "rect": [
@@ -5803,6 +6301,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Aussagen zum PA 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 460.58000000000004,
         "rect": [
@@ -5814,6 +6313,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 310.81989999999996,
         "rect": [
@@ -5825,6 +6325,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 273.61990000000003,
         "rect": [
@@ -5836,6 +6337,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.08,
         "y": 162.01999999999998,
         "rect": [
@@ -5847,6 +6349,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 515.11995,
         "y": 124.8199,
         "rect": [
@@ -5858,6 +6361,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 515.11995,
         "y": 88.58,
         "rect": [
@@ -5871,6 +6375,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Aussagen zum PA 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 385.21985,
         "rect": [
@@ -5884,6 +6389,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Ende der Asbg.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 101.36,
         "y": 240.85989999999998,
         "rect": [
@@ -5897,6 +6403,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Fachoberschule.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 519.9199,
         "y": 452.9,
         "rect": [
@@ -5910,6 +6417,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Franz-ZwP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.88,
         "y": 346.69989999999996,
         "rect": [
@@ -5923,6 +6431,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Inhalte der AP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.1599,
         "y": 387.73995,
         "rect": [
@@ -5936,6 +6445,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Kosten-Gebühren.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 521.59995,
         "y": 389.06,
         "rect": [
@@ -5949,6 +6459,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Kosten-Mat..pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 426.2599,
         "rect": [
@@ -5962,6 +6473,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Krause-Ende der Asbg.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 100.39995,
         "y": 291.25995,
         "rect": [
@@ -5973,6 +6485,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 98.4799,
         "y": 186.37990000000002,
         "rect": [
@@ -5986,6 +6499,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Quelle der Prüfungsanforderungen.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.2399,
         "y": 383.89995,
         "rect": [
@@ -5999,6 +6513,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Rechtslage zur AP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 427.21985,
         "rect": [
@@ -6010,6 +6525,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 389.06,
         "rect": [
@@ -6021,6 +6537,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.43995,
         "y": 308.9,
         "rect": [
@@ -6032,6 +6549,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 231.61989999999997,
         "rect": [
@@ -6045,6 +6563,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 504.25985000000003,
         "rect": [
@@ -6056,6 +6575,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 521.59995,
         "y": 388.09979999999996,
         "rect": [
@@ -6067,6 +6587,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 310.81989999999996,
         "rect": [
@@ -6078,6 +6599,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 523.51995,
         "y": 231.61989999999997,
         "rect": [
@@ -6091,6 +6613,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 487.21985,
         "rect": [
@@ -6102,6 +6625,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 93.9198,
         "y": 462.49985,
         "rect": [
@@ -6113,6 +6637,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 390.9799,
         "rect": [
@@ -6124,6 +6649,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 95.8399,
         "y": 342.2599,
         "rect": [
@@ -6137,6 +6663,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 93.9198,
         "y": 480.49985,
         "rect": [
@@ -6148,6 +6675,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 92.9599,
         "y": 453.86,
         "rect": [
@@ -6159,6 +6687,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 94.8799,
         "y": 429.86,
         "rect": [
@@ -6170,6 +6699,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 92.9599,
         "y": 384.2599,
         "rect": [
@@ -6183,6 +6713,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 4.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 516.08,
         "y": 383.3,
         "rect": [
@@ -6196,6 +6727,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 525.2,
         "y": 349.57995,
         "rect": [
@@ -6209,6 +6741,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 513.19985,
         "y": 460.58000000000004,
         "rect": [
@@ -6222,6 +6755,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.1198,
         "y": 464.7799,
         "rect": [
@@ -6233,6 +6767,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 347.65995,
         "rect": [
@@ -6244,6 +6779,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.08,
         "y": 269.4199,
         "rect": [
@@ -6257,6 +6793,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.35995,
         "y": 350.9,
         "rect": [
@@ -6270,6 +6807,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 514.1599,
         "y": 385.21985,
         "rect": [
@@ -6283,6 +6821,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen der AP.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 530.96,
         "y": 361.81995,
         "rect": [
@@ -6291,11 +6830,24 @@
           538.96,
           372.0
         ]
+      },
+      {
+        "text": "Zweimal",
+        "kind": "comment",
+        "x": 90.1999,
+        "y": 359.5399,
+        "rect": [
+          63.8399,
+          350.6799,
+          116.5599,
+          368.3999
+        ]
       }
     ],
     "originals/Prüfungsfragen HF bezogen/HF4/Verkürzung Verlängerung.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.35995,
         "y": 468.02,
         "rect": [
@@ -6307,6 +6859,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 528.3199,
         "y": 388.09979999999996,
         "rect": [
@@ -6318,6 +6871,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 526.39995,
         "y": 308.9,
         "rect": [
@@ -6329,6 +6883,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 527.35995,
         "y": 191.5399,
         "rect": [
@@ -6342,6 +6897,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Verlängerung.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 91.99995,
         "y": 349.93985,
         "rect": [
@@ -6355,6 +6911,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 1.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 522.5599500000001,
         "y": 464.4199,
         "rect": [
@@ -6368,6 +6925,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 2.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 96.8,
         "y": 289.6999,
         "rect": [
@@ -6381,6 +6939,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 515.83995,
         "y": 421.09995000000004,
         "rect": [
@@ -6394,6 +6953,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Zeugnisinhalt 1.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 524.4799,
         "y": 502.34000000000003,
         "rect": [
@@ -6405,6 +6965,7 @@
       },
       {
         "text": "0",
+        "kind": "mark",
         "x": 523.52,
         "y": 466.09979999999996,
         "rect": [
@@ -6416,6 +6977,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 524.4799,
         "y": 427.21985,
         "rect": [
@@ -6427,6 +6989,7 @@
       },
       {
         "text": "0",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 389.06,
         "rect": [
@@ -6438,6 +7001,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 525.4399000000001,
         "y": 351.86,
         "rect": [
@@ -6449,6 +7013,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 526.39995,
         "y": 310.81989999999996,
         "rect": [
@@ -6460,6 +7025,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 526.39995,
         "y": 269.78,
         "rect": [
@@ -6471,6 +7037,7 @@
       },
       {
         "text": "0",
+        "kind": "mark",
         "x": 526.39995,
         "y": 232.57999999999998,
         "rect": [
@@ -6484,6 +7051,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Zeugnisinhalt 2.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 100.15985,
         "y": 406.3399,
         "rect": [
@@ -6495,6 +7063,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 100.15985,
         "y": 380.66,
         "rect": [
@@ -6506,6 +7075,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 101.11995,
         "y": 358.57984999999996,
         "rect": [
@@ -6517,6 +7087,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 101.11995,
         "y": 332.8999,
         "rect": [
@@ -6528,6 +7099,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 101.11995,
         "y": 306.26,
         "rect": [
@@ -6539,6 +7111,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 101.11995,
         "y": 283.4599,
         "rect": [
@@ -6550,6 +7123,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 100.15985,
         "y": 259.45995,
         "rect": [
@@ -6561,6 +7135,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 100.15985,
         "y": 236.66,
         "rect": [
@@ -6574,6 +7149,7 @@
     "originals/Prüfungsfragen HF bezogen/HF4/Zeugnisse.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 521.59995,
         "y": 425.3,
         "rect": [
@@ -6585,6 +7161,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 386.18,
         "rect": [
@@ -6596,6 +7173,7 @@
       },
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.4799,
         "y": 309.86,
         "rect": [
@@ -6609,6 +7187,7 @@
     "originals/Prüfungsfragen HF bezogen/Inhalte BAV (Tabelle).pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 367.14099999999996,
         "y": 401.472,
         "rect": [
@@ -6620,6 +7199,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 366.336,
         "y": 374.094,
         "rect": [
@@ -6631,6 +7211,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 220.58999999999997,
         "y": 347.522,
         "rect": [
@@ -6642,6 +7223,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 293.06,
         "y": 317.728,
         "rect": [
@@ -6653,6 +7235,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 446.85900000000004,
         "y": 320.949,
         "rect": [
@@ -6664,6 +7247,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 221.39499999999998,
         "y": 293.571,
         "rect": [
@@ -6675,6 +7259,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 435.98850000000004,
         "y": 253.31,
         "rect": [
@@ -6686,6 +7271,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 220.58999999999997,
         "y": 238.816,
         "rect": [
@@ -6697,6 +7283,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 219.784,
         "y": 212.243,
         "rect": [
@@ -6708,6 +7295,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 367.946,
         "y": 186.476,
         "rect": [
@@ -6719,6 +7307,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 221.39499999999998,
         "y": 158.293,
         "rect": [
@@ -6730,6 +7319,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 223.4075,
         "y": 130.915,
         "rect": [
@@ -6741,6 +7331,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 450.08000000000004,
         "y": 261.362,
         "rect": [
@@ -6754,6 +7345,7 @@
     "originals/Prüfungsfragen HF bezogen/Inhalte BAV.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.2425,
         "y": 373.289,
         "rect": [
@@ -6767,6 +7359,7 @@
     "originals/Prüfungsfragen HF bezogen/Irina vorgegebene Zeit.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 313.702,
         "rect": [
@@ -6778,6 +7371,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 171.177,
         "rect": [
@@ -6791,6 +7385,7 @@
     "originals/Prüfungsfragen HF bezogen/Kündigung in der Probezeit.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 537.85,
         "y": 497.294,
         "rect": [
@@ -6802,6 +7397,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 419.187,
         "rect": [
@@ -6815,6 +7411,7 @@
     "originals/Prüfungsfragen HF bezogen/Lernhilfe.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 418.382,
         "rect": [
@@ -6828,6 +7425,7 @@
     "originals/Prüfungsfragen HF bezogen/Lernort BBS.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 455.423,
         "rect": [
@@ -6839,6 +7437,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 415.966,
         "rect": [
@@ -6850,6 +7449,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.8240000000001,
         "y": 298.403,
         "rect": [
@@ -6863,6 +7463,7 @@
     "originals/Prüfungsfragen HF bezogen/Lernorte zuordnen.pdf": [
       {
         "text": "1",
+        "kind": "mark",
         "x": 533.8199999999999,
         "y": 409.5245,
         "rect": [
@@ -6874,6 +7475,7 @@
       },
       {
         "text": "4",
+        "kind": "mark",
         "x": 533.0150000000001,
         "y": 362.016,
         "rect": [
@@ -6885,6 +7487,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 531.404,
         "y": 311.287,
         "rect": [
@@ -6896,6 +7499,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 533.0150000000001,
         "y": 265.388,
         "rect": [
@@ -6907,6 +7511,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 530.5989999999999,
         "y": 216.26999999999998,
         "rect": [
@@ -6918,6 +7523,7 @@
       },
       {
         "text": "5",
+        "kind": "mark",
         "x": 530.5989999999999,
         "y": 167.95600000000002,
         "rect": [
@@ -6931,6 +7537,7 @@
     "originals/Prüfungsfragen HF bezogen/Methodenkombination.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 527.3820000000001,
         "y": 439.318,
         "rect": [
@@ -6944,6 +7551,7 @@
     "originals/Prüfungsfragen HF bezogen/Moderationstechnik.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 418.382,
         "rect": [
@@ -6957,6 +7565,7 @@
     "originals/Prüfungsfragen HF bezogen/Nach d. Zwischenprüfung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 417.577,
         "rect": [
@@ -6968,6 +7577,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 338.664,
         "rect": [
@@ -6983,6 +7593,7 @@
     "originals/Prüfungsfragen HF bezogen/Rechsquellen Voraussetzungen.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 414.356,
         "rect": [
@@ -6994,6 +7605,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 536.239,
         "y": 336.249,
         "rect": [
@@ -7007,6 +7619,7 @@
     "originals/Prüfungsfragen HF bezogen/rechtliche Grundlagen.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.019,
         "y": 456.228,
         "rect": [
@@ -7018,6 +7631,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 494.879,
         "rect": [
@@ -7029,6 +7643,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 378.121,
         "rect": [
@@ -7040,6 +7655,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 299.20799999999997,
         "rect": [
@@ -7051,6 +7667,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 261.362,
         "rect": [
@@ -7062,6 +7679,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 531.408,
         "y": 182.45,
         "rect": [
@@ -7073,6 +7691,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 532.213,
         "y": 105.14795000000001,
         "rect": [
@@ -7084,6 +7703,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.8240000000001,
         "y": 67.3021,
         "rect": [
@@ -7098,6 +7718,7 @@
     "originals/Prüfungsfragen HF bezogen/Selbstständigkeit_Eigeninitiative fördern.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.992,
         "y": 455.423,
         "rect": [
@@ -7109,6 +7730,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 299.20799999999997,
         "rect": [
@@ -7120,6 +7742,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 527.3820000000001,
         "y": 221.101,
         "rect": [
@@ -7131,6 +7754,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 527.3820000000001,
         "y": 181.64499999999998,
         "rect": [
@@ -7144,6 +7768,7 @@
     "originals/Prüfungsfragen HF bezogen/Sozialform d. Lernens.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 493.26800000000003,
         "rect": [
@@ -7155,6 +7780,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 527.3820000000001,
         "y": 416.772,
         "rect": [
@@ -7166,6 +7792,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 529.798,
         "y": 337.054,
         "rect": [
@@ -7177,6 +7804,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 258.141,
         "rect": [
@@ -7190,6 +7818,7 @@
     "originals/Prüfungsfragen HF bezogen/Spezi HF3.pdf": [
       {
         "text": "x",
+        "kind": "mark",
         "x": 524.5999,
         "y": 457.15995,
         "rect": [
@@ -7203,6 +7832,7 @@
     "originals/Prüfungsfragen HF bezogen/Teilzeit Berufsausbildung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 534.629,
         "y": 457.838,
         "rect": [
@@ -7214,6 +7844,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.8240000000001,
         "y": 377.315,
         "rect": [
@@ -7225,6 +7856,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.4345000000001,
         "y": 261.362,
         "rect": [
@@ -7236,6 +7868,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 535.434,
         "y": 222.711,
         "rect": [
@@ -7249,6 +7882,7 @@
     "originals/Prüfungsfragen HF bezogen/Verlängerung_Verkürzung.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 457.033,
         "rect": [
@@ -7260,6 +7894,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 531.408,
         "y": 379.731,
         "rect": [
@@ -7271,6 +7906,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 531.408,
         "y": 300.013,
         "rect": [
@@ -7282,6 +7918,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 184.06,
         "rect": [
@@ -7295,6 +7932,7 @@
     "originals/Prüfungsfragen HF bezogen/Voraussetzung vorzeitige Abschlprüf..pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 452.202,
         "rect": [
@@ -7306,6 +7944,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 533.018,
         "y": 336.249,
         "rect": [
@@ -7317,6 +7956,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 532.213,
         "y": 258.141,
         "rect": [
@@ -7330,6 +7970,7 @@
     "originals/Prüfungsfragen HF bezogen/Vorteile Teamarbeit.pdf": [
       {
         "text": "X",
+        "kind": "mark",
         "x": 530.6030000000001,
         "y": 458.64300000000003,
         "rect": [
@@ -7341,6 +7982,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 378.926,
         "rect": [
@@ -7352,6 +7994,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.992,
         "y": 263.778,
         "rect": [
@@ -7363,6 +8006,7 @@
       },
       {
         "text": "X",
+        "kind": "mark",
         "x": 528.187,
         "y": 224.322,
         "rect": [
@@ -7376,6 +8020,7 @@
     "originals/Prüfungsfragen HF bezogen/Zuordnung Lernbereiche.pdf": [
       {
         "text": "2",
+        "kind": "mark",
         "x": 532.2090000000001,
         "y": 497.294,
         "rect": [
@@ -7387,6 +8032,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 531.404,
         "y": 457.033,
         "rect": [
@@ -7398,6 +8044,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 531.404,
         "y": 418.382,
         "rect": [
@@ -7409,6 +8056,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 530.5989999999999,
         "y": 378.926,
         "rect": [
@@ -7420,6 +8068,7 @@
       },
       {
         "text": "3",
+        "kind": "mark",
         "x": 532.2090000000001,
         "y": 339.47,
         "rect": [
@@ -7431,6 +8080,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 531.404,
         "y": 300.819,
         "rect": [
@@ -7442,6 +8092,7 @@
       },
       {
         "text": "2",
+        "kind": "mark",
         "x": 529.7940000000001,
         "y": 262.168,
         "rect": [
@@ -7453,6 +8104,7 @@
       },
       {
         "text": "1",
+        "kind": "mark",
         "x": 529.7940000000001,
         "y": 222.711,
         "rect": [
@@ -7466,4 +8118,3 @@
   },
   "errors": []
 }
-

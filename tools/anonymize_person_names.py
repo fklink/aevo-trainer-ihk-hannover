@@ -177,6 +177,14 @@ LAST_NAME_HINTS = {
     "König", "Pauli", "Müller", "Heuer", "Adam", "Lehmann", "Schwarzer", "Schwarze",
     "Koch", "Kurz",
 }
+METADATA_KEYS = {
+    "id", "title", "sourceTitle", "source", "category", "image", "handlungsfeld",
+    "sourceQuestionNumber", "points", "type", "optionCount", "solutionAvailable",
+}
+
+
+def content_payload(question):
+    return {key: value for key, value in question.items() if key not in METADATA_KEYS and key != "nameReplacements"}
 
 
 def replace_text(text, replacements):
@@ -199,7 +207,7 @@ def replace_recursive(value, replacements):
 
 def main():
     path = ROOT / "questions.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
+    data = json.loads(path.read_text(encoding="utf-8-sig"))
     used_first = set()
     used_last = set()
     used_companies = set()
@@ -208,22 +216,22 @@ def main():
         previous = question.get("nameReplacements")
         if isinstance(previous, dict) and previous:
             reverse = {new: old for old, new in sorted(previous.items(), key=lambda item: len(item[1]), reverse=True)}
-            question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, reverse))
+            question.update(replace_recursive(content_payload(question), reverse))
             question.pop("nameReplacements", None)
 
         replacements = {}
         for kind, aliases in QUESTION_NAME_GROUPS.get(question["id"], []):
             replacements.update(replacement_for(kind, aliases, used_first, used_last))
         if replacements:
-            question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, replacements))
+            question.update(replace_recursive(content_payload(question), replacements))
 
         company_replacements = {}
         for aliases in QUESTION_COMPANY_GROUPS.get(question["id"], []):
             company_replacements.update(company_replacement_for(aliases, used_companies))
         if company_replacements:
-            question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, company_replacements))
+            question.update(replace_recursive(content_payload(question), company_replacements))
 
-        question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, GLOBAL_EXTRA_REPLACEMENTS))
+        question.update(replace_recursive(content_payload(question), GLOBAL_EXTRA_REPLACEMENTS))
 
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "questions.js").write_text(

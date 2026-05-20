@@ -35,6 +35,12 @@ def page_annots(page):
     return [ref.get_object() for ref in annots]
 
 
+def annotation_kind(value):
+    if re.fullmatch(r"[Xx]|\d+", value.strip()):
+        return "mark"
+    return "comment"
+
+
 def extract_answer_tokens(pdf_path):
     reader = PdfReader(str(pdf_path))
     if len(reader.pages) < 2:
@@ -49,11 +55,10 @@ def extract_answer_tokens(pdf_path):
         if len(rect) != 4:
             continue
         value = text.strip()
-        if not re.search(r"[Xx]|\d+", value):
-            continue
         tokens.append(
             {
                 "text": value,
+                "kind": annotation_kind(value),
                 "x": (rect[0] + rect[2]) / 2,
                 "y": (rect[1] + rect[3]) / 2,
                 "rect": rect,
@@ -63,7 +68,7 @@ def extract_answer_tokens(pdf_path):
 
 
 def main():
-    meta = json.loads(META_PATH.read_text(encoding="utf-8"))
+    meta = json.loads(META_PATH.read_text(encoding="utf-8-sig"))
     by_source = {}
     errors = []
     for item in meta["items"]:
