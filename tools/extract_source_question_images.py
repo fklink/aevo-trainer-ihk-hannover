@@ -6,7 +6,7 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_ROOT = ROOT / "quelle" / "Prüfungsfragen HF bezogen"
+SOURCE_ROOT = ROOT / "originals" / "Prüfungsfragen HF bezogen"
 OUTPUT_DIR = ROOT / "assets_extra"
 META_PATH = ROOT / "source-question-images.json"
 

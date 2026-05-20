@@ -1,0 +1,19 @@
+# Local source material. The app uses generated assets/questions, not these PDFs.
+originals/
+
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Temporary extraction/check folders
+tmp-*/
+tmp_*/
+
+# Local editor/OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs
+*.log

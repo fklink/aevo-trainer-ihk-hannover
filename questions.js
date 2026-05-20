@@ -1,4 +1,4 @@
-window.QUESTIONS_DATA = {
+﻿window.QUESTIONS_DATA = {
   "title": "AEVO Prüfungstrainer",
   "questions": [
     {
@@ -2160,7 +2160,7 @@ window.QUESTIONS_DATA = {
         "Landesschulbehörde",
         "Agentur für Arbeit"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Ansprechpartner.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Ansprechpartner.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -2202,7 +2202,7 @@ window.QUESTIONS_DATA = {
         "Für den Bereich Industrie, Handel und Dienstleistungen legt die Industrie- und Handelskammer als",
         "zuständige Stelle die Ausbildungsinhalte fest."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/AO Planung d. Ausbildung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/AO Planung d. Ausbildung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -2240,7 +2240,7 @@ window.QUESTIONS_DATA = {
         "Kündigung androhen.",
         "Ein videounterstütztes Training zum Verhalten mit Kunden durchführen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Auf negative Verhaltensweisen reagieren.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Auf negative Verhaltensweisen reagieren.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 7,
@@ -2287,7 +2287,7 @@ window.QUESTIONS_DATA = {
         "Die Berufsschule soll die Bereitschaft fördern, sich im öffentlichen Leben verantwortungsbewusst zu",
         "verhalten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Aufgaben der BBS.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Aufgaben der BBS.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -2334,7 +2334,7 @@ window.QUESTIONS_DATA = {
         "Er kann seine Ausbildung in fast allen Ländern der EU fortsetzen, nur Spanien und Italien bilden eine",
         "Ausnahme."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Ausbildung in Deutschland.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Ausbildung in Deutschland.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -2375,7 +2375,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder empfiehlt den betreffenden Auszubildenden ein intensives Studium der",
         "Gebrauchsanæisung eines Computers in Einzelarbeit."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Ausgleich von Defiziten.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Ausgleich von Defiziten.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -2419,7 +2419,7 @@ window.QUESTIONS_DATA = {
         "Tobias kann verlangen, dass im Zeugnis Angaben über seine Verhaltensweisen im Betrieb",
         "aufgenommen werden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Aussagen zum Zeugnis.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Aussagen zum Zeugnis.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -2463,7 +2463,7 @@ window.QUESTIONS_DATA = {
         "Vertragserstellung",
         "Antrag auf Eintragung des Ausbildungsvertrages bei der IHK"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Auswahl (Reihenfolge).pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Auswahl (Reihenfolge).pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -2516,7 +2516,7 @@ window.QUESTIONS_DATA = {
         "Die Ausbildungsvergütung ist am 15. des Monats zu zahlen.",
         "Die Ausbildungsvergütung ist spätestens am letzten Arbeitstag des Monats zu zahlen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Auszahlung Vergütung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Auszahlung Vergütung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 7,
@@ -2558,7 +2558,7 @@ window.QUESTIONS_DATA = {
         "Aufwandsentschädigung durch das Land Niedersachsen.",
         "Aufwandsentschädigung durch den Ausbildungsbetrieb."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/BAB.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/BAB.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -2603,7 +2603,7 @@ window.QUESTIONS_DATA = {
         "Marc darf in der kommenden Woche in den Betrieb geholt werden, die Erziehungsberechtigten",
         "müssen aber zustimmen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/BBS Blockunterricht (1).pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/BBS Blockunterricht (1).pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -2651,7 +2651,7 @@ window.QUESTIONS_DATA = {
         "Ausführen",
         "Tadeln"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Begriffe Leittextmehode.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Begriffe Leittextmehode.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 12,
@@ -2708,7 +2708,7 @@ window.QUESTIONS_DATA = {
         "Identifikationsprozess mit Beruf und Betrieb fördern",
         "Regelmäßige Beurteilungsgespräche führen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Bestätigen des Ausbildungsberufs.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Bestätigen des Ausbildungsberufs.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 12,
@@ -2757,7 +2757,7 @@ window.QUESTIONS_DATA = {
         "Können die Auszubildenden nach der Ausbildung übernommen werden?",
         "Können alle Ausbildungsinhalte vermittelt werden?"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/betriebliche Eignung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/betriebliche Eignung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -2797,7 +2797,7 @@ window.QUESTIONS_DATA = {
         "Nein, bei der Entwicklung von Beurteilungssystemen ist der Betriebsrat zu beteiligen, sofern ein",
         "solcher im Betrieb besteht."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Beurteiungssystem Betriebsrat.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Beurteiungssystem Betriebsrat.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -2836,7 +2836,7 @@ window.QUESTIONS_DATA = {
         "Der Auszubildende wird automatisch zum nächstmöglichen Termin von der zuständigen Stelle",
         "eingeladen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Durchgefallen Abschlprüf..pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Durchgefallen Abschlprüf..pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -2878,7 +2878,7 @@ window.QUESTIONS_DATA = {
         "über Unfallquellen eines Bergbaubetriebes.",
         "Er hat verschiedene vorstellbare Gefahrensituationen monoton erläutert."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Fehler Vortrag.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Fehler Vortrag.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -2921,7 +2921,7 @@ window.QUESTIONS_DATA = {
         "Keiner der drei muss innerhalb von 14 Monaten vor Ausbildungsbeginn zur gesetzlich",
         "vorgeschriebenen Erstuntersuchung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Frist Erstuntersuchung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Frist Erstuntersuchung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -2960,7 +2960,7 @@ window.QUESTIONS_DATA = {
         "Sicherheitsbewusstsein",
         "Ausdrucksfähigkeit"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Förderung SQ bei Projekt.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Förderung SQ bei Projekt.pdf",
       "category": ".",
       "solutionAvailable": false,
       "optionCount": 6,
@@ -3000,7 +3000,7 @@ window.QUESTIONS_DATA = {
         "Verschwiegenheit",
         "Problemlösungsfähigkeit"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Förderung SQ.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Förderung SQ.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -3045,7 +3045,7 @@ window.QUESTIONS_DATA = {
         "Soziales Aggregat",
         "Zu Beginn der Ausbildung handelt es sich noch nicht um eine Gruppe."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Gruppenart.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Gruppenart.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 7,
@@ -3082,7 +3082,7 @@ window.QUESTIONS_DATA = {
         "Das Intelligenzprofil der Bewerber.",
         "Die politische Denkrichtung der Bewerber."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Gruppenauswahlverfahren.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Gruppenauswahlverfahren.pdf",
       "category": ".",
       "solutionAvailable": false,
       "optionCount": 4,
@@ -3121,7 +3121,7 @@ window.QUESTIONS_DATA = {
         "Die Auszubildende ist immer mit ihrer Ausbilderin ausgekcrnmen.",
         "Motivation und Arbeitsverhalten waren stets zu unserer vollsten Zufriedenheit."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Gute Beurteilung_Bewertung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Gute Beurteilung_Bewertung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -3168,7 +3168,7 @@ window.QUESTIONS_DATA = {
         "Methodenkompetenz ist die Fähigkeit des methodisch-problemlösenden Lernens und Arbeitens.",
         "Handlungskompetenz umfasst nur Fertigkeiten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Handlungskompetenz.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Handlungskompetenz.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -3221,7 +3221,7 @@ window.QUESTIONS_DATA = {
         "Bei unzureichenden schulischen Leistungen während der Probezeit entscheidet die Berufsschule über",
         "die Fortführung des Ausbildungsverhältnisses."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Aufgaben 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Aufgaben 1.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -3262,7 +3262,7 @@ window.QUESTIONS_DATA = {
         "gleichen Rechtsquellen. Gleiche Themen werden aber trotzdem zu unterschiedlichen Zeiten vermittelt.",
         "Durch eine mögliche Abstimmung kann dies vielleicht vermieden werden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Firmeninhaber.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Firmeninhaber.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -3303,7 +3303,7 @@ window.QUESTIONS_DATA = {
         "Es ist davon auszugehen, dass Lisa Steiner nicht im Unternehmen bleibt und freiwillig die",
         "Berufsfachschule besucht."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Insolvenz.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Insolvenz.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -3342,7 +3342,7 @@ window.QUESTIONS_DATA = {
         "Wenn wöchentlicher betriebsinterner Unterricht gegeben wird, kann auf den Berufsschulbesuch",
         "verzichtet werden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Regelungen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Regelungen.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 115,
@@ -3497,7 +3497,7 @@ window.QUESTIONS_DATA = {
         "Nur Noah ist berufsschulpflichtig. Lena und Tim können aber freiwillig zur Berufsschule gehen.",
         "Ein möglicher Berufsschulbesuch wird bei allen dreien im Ausbildungsvertrag vereinbart."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Schulpflicht.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/BBS Schulpflicht.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -3532,7 +3532,7 @@ window.QUESTIONS_DATA = {
         "Betrieblicher Ausbildungsplan",
         "Prüfungsanforderungen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 1.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -3570,7 +3570,7 @@ window.QUESTIONS_DATA = {
         "Ausbildungsrahmenplan",
         "Berufsschulpflicht"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 2.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -3617,7 +3617,7 @@ window.QUESTIONS_DATA = {
         "Schulgesetz",
         "Schulbehörden"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/DS Zuordnung 3.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -3653,7 +3653,7 @@ window.QUESTIONS_DATA = {
         "Berufsausbildung im dualen System",
         "System der Euro-Berufsausbildung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/Fachbezeichnung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Fachbezeichnung.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 58,
@@ -3746,7 +3746,7 @@ window.QUESTIONS_DATA = {
         "Er kann seine Ausbildung in fast allen Ländern der EU fortsetzen, nur Spanien und Italien bilden eine",
         "Ausnahme."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/Jan-Asbg in Spanien.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Jan-Asbg in Spanien.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -3782,7 +3782,7 @@ window.QUESTIONS_DATA = {
         "Erstausbildung.",
         "Innerhalb der EU gibt es verschiedene Systeme der beruflichen Erstausbildung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/Jan-EU Systeme.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Jan-EU Systeme.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 147,
@@ -3965,7 +3965,7 @@ window.QUESTIONS_DATA = {
         "gewährt werden muss.",
         "Der Berufsschultag gilt als Arbeitstag und darf nicht als Urlaubstag angerechnet werden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Duales System/Schultag als Urlaub.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Duales System/Schultag als Urlaub.pdf",
       "category": "HF1/Duales System",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4007,7 +4007,7 @@ window.QUESTIONS_DATA = {
         "Jonas Richter, 27 Jahre alt, Industriekaufmann, vor einem Jahr eine Vorstrafe wegen Verkaufs",
         "pornografischer Schriften an Jugendliche."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Eignung/Abba.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Abba.pdf",
       "category": "HF1/Eignung",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -4048,7 +4048,7 @@ window.QUESTIONS_DATA = {
         "Einzelhandel geeignet sein.",
         "Die Konova GmbH muss konjunkturstabil für die Berufsausbildung geeignet sein."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Eignung/Asb Abd.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Asb Abd.pdf",
       "category": "HF1/Eignung",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -4090,7 +4090,7 @@ window.QUESTIONS_DATA = {
         "Verantwortung eines Ausbilders ausbilden, da er über die nötigen Fertigkeiten und Kenntnisse verfügt.",
         "Herr Mann kann die widerrufliche Zuerkennung der fachlichen Eignung beantragen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Eignung/Asb Mann.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Asb Mann.pdf",
       "category": "HF1/Eignung",
       "solutionAvailable": true,
       "optionCount": 288,
@@ -4416,7 +4416,7 @@ window.QUESTIONS_DATA = {
         "Herr Schreiber ist der Meinung, dass sie diesen Ausbildungsberater anfordern müssen.",
         "Frau Schreiber ist sich sicher, dass der Ausbildungberater ohne Aufforderung kommt."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Eignung/Betrieb.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Betrieb.pdf",
       "category": "HF1/Eignung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4449,7 +4449,7 @@ window.QUESTIONS_DATA = {
         "Weisungsberechtigter in Bezug auf die Freistellung vom Berufsschulunterricht.",
         "Ansprechpartner für die Eltern aller Auszubildenden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Eignung/Rollen des Asb.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Rollen des Asb.pdf",
       "category": "HF1/Eignung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4483,7 +4483,7 @@ window.QUESTIONS_DATA = {
         "Die Berufsschule",
         "Die zuständige Stelle"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Eignung/Verantwortlicher  Abd.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Eignung/Verantwortlicher  Abd.pdf",
       "category": "HF1/Eignung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4520,7 +4520,7 @@ window.QUESTIONS_DATA = {
         "Das BBiG regelt die Berufsausbildung. Im Handwerk wird sie zusätzlich durch die Handwerksordnung",
         "geregelt."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/4 Merkmale des BBiG.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/4 Merkmale des BBiG.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4560,7 +4560,7 @@ window.QUESTIONS_DATA = {
         "Rechte und Pflichten des Ausbildenden und Auszubildenden",
         "Verkürzungsmöglichkeiten bei der Ausbildungsdauer"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/AO Mindestinhalte.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/AO Mindestinhalte.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4595,7 +4595,7 @@ window.QUESTIONS_DATA = {
         "Abschlussprüfung",
         "Berufliche Fortbildung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/BBiG Durchführung Asbg.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BBiG Durchführung Asbg.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4640,7 +4640,7 @@ window.QUESTIONS_DATA = {
         "Jugendliche Arbeitnehmer im JArbSchG",
         "Jugend- und Auszubildendenvertretung im JugSchG"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/Block Rechtsquellen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Block Rechtsquellen.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -4680,7 +4680,7 @@ window.QUESTIONS_DATA = {
         "Kontrolle des schriftlichen Ausbildungsnachweises",
         "Ausstattung der DV-Schulungsräume"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 1.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -4722,7 +4722,7 @@ window.QUESTIONS_DATA = {
         "Kai hat Recht.",
         "Alle haben Recht."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 2.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -4761,7 +4761,7 @@ window.QUESTIONS_DATA = {
         "Mitbestimmung bei der Höhe der Ausbildungsvergütung",
         "Mitbestimmung darüber, in welcher Abteilung ein Auszubildender eingesetzt wird"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/BR 3.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -4796,7 +4796,7 @@ window.QUESTIONS_DATA = {
         "Rahmenstoffplan",
         "Arbeitsvertrag"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/Quelle Ausbildungsinhalte.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Quelle Ausbildungsinhalte.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4836,7 +4836,7 @@ window.QUESTIONS_DATA = {
         "Mutterschutzgesetz",
         "Arbeitszeitgesetz"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/rechtlicher Rahmen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/rechtlicher Rahmen.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -4879,7 +4879,7 @@ window.QUESTIONS_DATA = {
         "Abs±tusprüfung",
         "Betuflid'ie Fortbildung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/Regelungen im BBiG.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Regelungen im BBiG.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -4919,7 +4919,7 @@ window.QUESTIONS_DATA = {
         "Rentenversicherung",
         "Rechtsschutzversicherung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gesetze/Sozi Vers.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gesetze/Sozi Vers.pdf",
       "category": "HF1/Gesetze",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -4959,7 +4959,7 @@ window.QUESTIONS_DATA = {
         "Die Einstellung und Qualifizierung externer Fachkräfte verursacht in der Regel zusätzliche Kosten.",
         "Eigene ausgebildete Fachkräfte sind höher motiviert und deshalb leistungsfähiger."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 1.pdf",
       "category": "HF1/Gründe für Asbg",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -5000,7 +5000,7 @@ window.QUESTIONS_DATA = {
         "Die Wahl bestimmter Ausbildungsberufe hängt von der Qualifikation der mittelfristig im Betrieb",
         "benötigten Fachkräfte ab."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 2.pdf",
       "category": "HF1/Gründe für Asbg",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -5040,7 +5040,7 @@ window.QUESTIONS_DATA = {
         "betrieblich zu zahlende Ausbildungsvergütung. Ist das nicht der Fall, zahlt der Azubi selbst den",
         "Differenzbetrag oder stellt einen Antrag bei der IHK."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Gründe für Asbg/Betrieb 3.pdf",
       "category": "HF1/Gründe für Asbg",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -5071,7 +5071,7 @@ window.QUESTIONS_DATA = {
         "Sie müssen die geplanten Ausbildungszeiten so weit wie möglich einhalten.",
         "Sie müssen die geplanten Ausbildungszeiten großzügig handhaben."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Planung/Ausbildungszeiten.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Planung/Ausbildungszeiten.pdf",
       "category": "HF1/Planung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -5109,7 +5109,7 @@ window.QUESTIONS_DATA = {
         "Tobias darf als Spanier in Deutschland keine Ausbildung beginnen.",
         "Tobias darf nur mit Zustimmung der Regierungsbehörde eine Ausbildung in Deutschland beginnen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF1/Planung/Jan-Schulabschluss.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF1/Planung/Jan-Schulabschluss.pdf",
       "category": "HF1/Planung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -5145,7 +5145,7 @@ window.QUESTIONS_DATA = {
         "wo",
         "Wohin"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/8-W-Fragen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/8-W-Fragen.pdf",
       "category": "HF2",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -5207,7 +5207,7 @@ window.QUESTIONS_DATA = {
         "12 Monate",
         "Anrechnung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Anrechnung Schulabschlüsse.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Anrechnung Schulabschlüsse.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": false,
       "optionCount": 3,
@@ -5247,7 +5247,7 @@ window.QUESTIONS_DATA = {
         "Ergebnisse des Berufseignungstests",
         "Bescheinigung der Erstuntersuchung nach JArbSchG"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/BAV Unterlagen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/BAV Unterlagen.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -5289,7 +5289,7 @@ window.QUESTIONS_DATA = {
         "Die Geschäftsleitung der Nordblick GmbH legt die Ausbildungsverträge von Paul und Nora der IHK vor.",
         "Mats darf noch keine Ausbildung beginnen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/BAV Verantwortlich.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/BAV Verantwortlich.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -5336,7 +5336,7 @@ window.QUESTIONS_DATA = {
         "Der Berufsausbildungsvertrag entspricht dem IHK-Gesetz.",
         "Die betriebliche Eignung der Mechatron GmbH für das Einstellen und Ausbilden liegt vor."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/BAV Voraussetzungen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/BAV Voraussetzungen.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": false,
       "optionCount": 222,
@@ -5593,7 +5593,7 @@ window.QUESTIONS_DATA = {
         "Keiner der drei muss innerhalb von 14 Monaten vor Ausbildungsbeginn zur gesetzlich",
         "vorgeschriebenen Erstuntersuchung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Erstuntersuchung 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Erstuntersuchung 1.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": false,
       "optionCount": 167,
@@ -5797,7 +5797,7 @@ window.QUESTIONS_DATA = {
         "Alle drei müssen an dieser Untersuchung teilnehmen, die nicht länger als 14 Monate zurückliegen",
         "darf."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Erstuntersuchung 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Erstuntersuchung 2.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": false,
       "optionCount": 212,
@@ -6039,7 +6039,7 @@ window.QUESTIONS_DATA = {
         "Nachweisgesetz",
         "Arbeitszeitgesetz"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 1.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6072,7 +6072,7 @@ window.QUESTIONS_DATA = {
         "Berufsbildungsgesetz",
         "Schulgesetze der Länder"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 2.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -6113,7 +6113,7 @@ window.QUESTIONS_DATA = {
         "Handelsgesetzbuch",
         "Bundesurlaubsgesetz"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Gesetze zum BAV 3.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": false,
       "optionCount": 1,
@@ -6151,7 +6151,7 @@ window.QUESTIONS_DATA = {
         "Charakterliche Förderung des Auszubildenden",
         "Aushändigung der Berichtshefte"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/nichtige Vereinbarungen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/nichtige Vereinbarungen.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6212,7 +6212,7 @@ window.QUESTIONS_DATA = {
         "5",
         "AO"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/BAV/Zuordnung Gesetze BAV.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/BAV/Zuordnung Gesetze BAV.pdf",
       "category": "HF2/BAV",
       "solutionAvailable": false,
       "optionCount": 5,
@@ -6255,7 +6255,7 @@ window.QUESTIONS_DATA = {
         "Drahtbiegeprobe",
         "Bewerbergespräch"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Auswahlverfahren Bkm.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Auswahlverfahren Bkm.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6296,7 +6296,7 @@ window.QUESTIONS_DATA = {
         "Kreativitätstest",
         "Arbeitsprobe an Drehmaschine"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Auswahlverfahren ZM.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Auswahlverfahren ZM.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6330,7 +6330,7 @@ window.QUESTIONS_DATA = {
         "Bei Ausbildungsplatzbewerbern werden die einzelnen Ausbildungsinhalte eingehend besprochen.",
         "Ausbildungsplatzbewerber entwickeln in der Regel wenig Eigeninitiative."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 1.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6363,7 +6363,7 @@ window.QUESTIONS_DATA = {
         "Ausbildungsinhalte eingehend erläutert werden müssen.",
         "Junge Ausbildungsplatzbewerber entwickeln im Bewerbungsgespräch in der Regel wenig Eigeninitiative."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 2.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6405,7 +6405,7 @@ window.QUESTIONS_DATA = {
         "Welche Fächer haben Ihnen in der Schule besonderen Spaß gemacht?",
         "Warum haben Sie sich bei uns beworben?"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsgespräch 3.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 158,
@@ -6597,7 +6597,7 @@ window.QUESTIONS_DATA = {
         "Lebenslauf",
         "Bewerbungsgespräch"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsunterlagen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Bewerbungsunterlagen.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6635,7 +6635,7 @@ window.QUESTIONS_DATA = {
         "Ordnung und Sauberkeit",
         "Fleiß"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Einstellung/Gruppengespräch.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Einstellung/Gruppengespräch.pdf",
       "category": "HF2/Einstellung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6671,7 +6671,7 @@ window.QUESTIONS_DATA = {
         "Neben der Fachkompetenz hat die Sozialkompetenz eine hohe Bedeutung.",
         "Die Methodenkompetenz spielt nur eine untergeordnete Rolle."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Anfoderungen Asbg perso.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Anfoderungen Asbg perso.pdf",
       "category": "HF2/Handlungskompetenzen",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -6706,7 +6706,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder unterweist jeden Auszubildenden nach der Vier-Stufen-Methode.",
         "Der Ausbilder hält überwiegend Kurzvorträge."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Sozialkompetenz.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Sozialkompetenz.pdf",
       "category": "HF2/Handlungskompetenzen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6746,7 +6746,7 @@ window.QUESTIONS_DATA = {
         "Jeden Handlungsablauf mit dem Auszubildenden diskutieren",
         "Dem Auszubildenden das Ziel der Ausbildung selbst finden lassen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Technologischer Wandel.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Handlungskompetenzen/Technologischer Wandel.pdf",
       "category": "HF2/Handlungskompetenzen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6780,7 +6780,7 @@ window.QUESTIONS_DATA = {
         "Lerntaxonomie",
         "Lernprinzip"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Lernorte/Lerninsel.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Lernorte/Lerninsel.pdf",
       "category": "HF2/Lernorte",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -6823,7 +6823,7 @@ window.QUESTIONS_DATA = {
         "dass die geplanten Lerninhalte auch tatsächlich vermittelt und geübt werden können.",
         "Lernbüros eignen sich für das Trainieren von Grundfertigkeiten in kaufmännischen Berufen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Lernorte/LO Arbeitsplatz.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Lernorte/LO Arbeitsplatz.pdf",
       "category": "HF2/Lernorte",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -6860,7 +6860,7 @@ window.QUESTIONS_DATA = {
         "Landesschulbehörde",
         "Agentur für Arbeit"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Pläne/Ansprechpartner IHK.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Ansprechpartner IHK.pdf",
       "category": "HF2/Pläne",
       "solutionAvailable": true,
       "optionCount": 73,
@@ -6966,7 +6966,7 @@ window.QUESTIONS_DATA = {
         "Betrieblicher Ausbildungsplan",
         "Rahmenlehrplan"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Pläne/Betrieblicher AP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Betrieblicher AP.pdf",
       "category": "HF2/Pläne",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -7002,7 +7002,7 @@ window.QUESTIONS_DATA = {
         "Eintägige Schulung im Betrieb eines Lieferanten.",
         "Außerbetriebliche Ausbildung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Pläne/Einflüsse.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Einflüsse.pdf",
       "category": "HF2/Pläne",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -7040,7 +7040,7 @@ window.QUESTIONS_DATA = {
         "Den verkürzten Ausbildungsplan hebt sie sich für den Fall auf, dass in absehbarer Zeit ein",
         "Auszubildender ausgebildet wird, der mit der allgemeinen Hochschulreife eingestellt wird."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Pläne/Individueller AP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Individueller AP.pdf",
       "category": "HF2/Pläne",
       "solutionAvailable": true,
       "optionCount": 162,
@@ -7239,7 +7239,7 @@ window.QUESTIONS_DATA = {
         "Ausbilder Pauli gibt ihnen den gesamten betrieblichen Ausbildungsplan, den er aufgrund seiner",
         "1 Ojährigen Ausbildungserfahrung erstellt hat."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Pläne/Inhalte auf Abteilung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Inhalte auf Abteilung.pdf",
       "category": "HF2/Pläne",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -7279,7 +7279,7 @@ window.QUESTIONS_DATA = {
         "Für die Industrie legt die Industrie- und Handelskammer (zuständige Stelle) die Ausbildung fest. Für",
         "den Handel macht es die Handelsgesellschaft."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Pläne/Jan-FuK.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Pläne/Jan-FuK.pdf",
       "category": "HF2/Pläne",
       "solutionAvailable": true,
       "optionCount": 200,
@@ -7512,7 +7512,7 @@ window.QUESTIONS_DATA = {
         "Zuständige Stelle",
         "Jugend- und Auszubildendenvertretung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Abstimmung im Betrieb.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Abstimmung im Betrieb.pdf",
       "category": "HF2/Vorbereitung",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -7549,7 +7549,7 @@ window.QUESTIONS_DATA = {
         "Arbeitspädagogische Fähigkeiten der Mitarbeiter in den entsprechenden Abteilungen",
         "Vorhandensein einer Dusche für die weiblichen Auszubildenden"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Auswahl von Asbgplätze.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Auswahl von Asbgplätze.pdf",
       "category": "HF2/Vorbereitung",
       "solutionAvailable": true,
       "optionCount": 109,
@@ -7693,7 +7693,7 @@ window.QUESTIONS_DATA = {
         "Rationalisierung in den Fachabteilungen führt zu weniger Ausbildungsplätzen.",
         "In den Fachabteilungen werden die Auszubildenden als lästig empfunden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Auswirkungen auf AP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Auswirkungen auf AP.pdf",
       "category": "HF2/Vorbereitung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -7729,7 +7729,7 @@ window.QUESTIONS_DATA = {
         "Nähe der Berufsschule.",
         "Qualität der Berufsschullehrer."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Einflüsse auf Asbg.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Einflüsse auf Asbg.pdf",
       "category": "HF2/Vorbereitung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -7762,7 +7762,7 @@ window.QUESTIONS_DATA = {
         "Weglassen der Inhalte.",
         "Vermittlung der Inhalte in einer überbetrieblichen Ausbildungsstätte."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Inhalte Fu.K Verbund.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Inhalte Fu.K Verbund.pdf",
       "category": "HF2/Vorbereitung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -7796,7 +7796,7 @@ window.QUESTIONS_DATA = {
         "Schülerpraktikum durchgeführt",
         "Erstwohnsitz im selben Landkreis, in dem sich der Ausbildungsbetrieb befindet"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Voraussetzungen Asbg.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF2/Vorbereitung/Voraussetzungen Asbg.pdf",
       "category": "HF2/Vorbereitung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -7840,7 +7840,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder/die Ausbilderin sollte über die Möglichkeit nachdenken, bereits am ersten Tag den",
         "Auszubildenden zu kleinen Erfolgserlebnissen zu verhelfen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/1. Ausbildungstag 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/1. Ausbildungstag 1.pdf",
       "category": "HF3/1. Tag und Probezeit",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -7886,7 +7886,7 @@ window.QUESTIONS_DATA = {
         "Erläuterung des betrieblichen Ausbildungsplanes",
         "Erläuterung zur Führung des Ausbildungsnachweisheftes"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/1. Ausbildungstag 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/1. Ausbildungstag 2.pdf",
       "category": "HF3/1. Tag und Probezeit",
       "solutionAvailable": true,
       "optionCount": 232,
@@ -8153,7 +8153,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder sollte den Auszubildenden täglich neue Aufgaben alleine lösen lassen, um",
         "Rückschlüsse auf sein Leistungsvermögen und seine Motivation zu erhalten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/Probezeit.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/1. Tag und Probezeit/Probezeit.pdf",
       "category": "HF3/1. Tag und Probezeit",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -8190,7 +8190,7 @@ window.QUESTIONS_DATA = {
         "Zur Sicherheit eine schriftliche Anleitung für den Verlauf der Präsentation, damit alle Gesprächspunkte",
         "von den Auszubildenden beachtet werden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Ausbildungsmittel 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Ausbildungsmittel 1.pdf",
       "category": "HF3/Ausbildungsmittel",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -8229,7 +8229,7 @@ window.QUESTIONS_DATA = {
         "Zur Sicherheit eine schriftliche Anleitung für den Verlauf der Präsentation, damit alle Gesprächspunkte",
         "von den Auszubildenden beachtet werden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Ausbildungsmittel 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Ausbildungsmittel 2.pdf",
       "category": "HF3/Ausbildungsmittel",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -8267,7 +8267,7 @@ window.QUESTIONS_DATA = {
         "Flipchart",
         "Pinnwand"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Medieneinsatz.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Ausbildungsmittel/Medieneinsatz.pdf",
       "category": "HF3/Ausbildungsmittel",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -8305,7 +8305,7 @@ window.QUESTIONS_DATA = {
         "Ende eines Kalenderjahres",
         "Verlassen einer Abteilung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Beurteilung/Anlässe.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Anlässe.pdf",
       "category": "HF3/Beurteilung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -8358,7 +8358,7 @@ window.QUESTIONS_DATA = {
         "Dieser Tatbestand führt dazu, dass er bei zukünftigen Beurteilungen an diesen Vorfall erinnert wird",
         "und nicht in der Lage ist, eine objektive Beurteilung abzugeben."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Beurteilung/Beurteilungsfehler.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Beurteilungsfehler.pdf",
       "category": "HF3/Beurteilung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -8398,7 +8398,7 @@ window.QUESTIONS_DATA = {
         "Ergebnis schriftlich festhalten.",
         "Auszubildender nimmt Stellung zu den Beobachtungen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 1.pdf",
       "category": "HF3/Beurteilung",
       "solutionAvailable": true,
       "optionCount": 160,
@@ -8916,7 +8916,7 @@ window.QUESTIONS_DATA = {
         "Kritikphase",
         "Kontrollphase"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 2.pdf",
       "category": "HF3/Beurteilung",
       "solutionAvailable": false,
       "optionCount": 100,
@@ -9160,7 +9160,7 @@ window.QUESTIONS_DATA = {
         "Deuten Sie an, dass auch Sie Konsequenzen ziehen wollen, sei es in Ihrem Verhalten oder in der",
         "Einwirkung auf das Ausbildungsfeld."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 3 (12).pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Beurteilung/Gesprächsverlauf 3 (12).pdf",
       "category": "HF3/Beurteilung",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -9199,7 +9199,7 @@ window.QUESTIONS_DATA = {
         "Die Gruppe fördert die Lernmotivation, weil die Lernanstrengungen des Einzelnen Beachtung und",
         "Anerkennung finden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Didaktik/Lernmotivation.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Lernmotivation.pdf",
       "category": "HF3/Didaktik",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -9241,7 +9241,7 @@ window.QUESTIONS_DATA = {
         "Auswendiglernen und Aufsagen von sechs Fachausdrücken für in der Schuhherstellung verwendete",
         "Obermaterialien."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Didaktik/Lerntechniken 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Lerntechniken 1.pdf",
       "category": "HF3/Didaktik",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -9295,7 +9295,7 @@ window.QUESTIONS_DATA = {
         "affekitver",
         "Lernbereich"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Didaktik/Lernziele-Lernbereiche.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Lernziele-Lernbereiche.pdf",
       "category": "HF3/Didaktik",
       "solutionAvailable": false,
       "optionCount": 173,
@@ -9673,7 +9673,7 @@ window.QUESTIONS_DATA = {
         "Diese Fachkenntnisse nutzt der Auszubildende, um sich im Freundeskreis zu profilieren.",
         "Diese Fertigkeiten benötigt der Auszubildende, um die nächste Lernaufgabe bewältigen zu können."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Didaktik/Motivation.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Didaktik/Motivation.pdf",
       "category": "HF3/Didaktik",
       "solutionAvailable": false,
       "optionCount": 151,
@@ -9860,7 +9860,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder gibt den Auszubildenden genügend Zeit, um Schwierigkeiten zu überwinden und eine",
         "Lösung zu finden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Eigeninitiative fördern .pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Eigeninitiative fördern .pdf",
       "category": "HF3",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -9899,7 +9899,7 @@ window.QUESTIONS_DATA = {
         "autokratischen Führungsstil.",
         "Ein autokratischer Führungsstil fördert die Rolle des Ausbilders als Vorgesetzter."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Führungsstile.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Führungsstile.pdf",
       "category": "HF3",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -9935,7 +9935,7 @@ window.QUESTIONS_DATA = {
         "Aufgrund des hierdurch deutlich gewordenen Wissensstandes der Auszubildenden können Sie als",
         "Ausbilder weitere Vorgehensweisen zur Vermittlung des Lernstoffs planen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Arbeitsergebnis.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Arbeitsergebnis.pdf",
       "category": "HF3/Lernerfolgskontrolle",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -9984,7 +9984,7 @@ window.QUESTIONS_DATA = {
         "Programmierte",
         "Aufgaben"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 1.pdf",
       "category": "HF3/Lernerfolgskontrolle",
       "solutionAvailable": false,
       "optionCount": 116,
@@ -10254,7 +10254,7 @@ window.QUESTIONS_DATA = {
         "Bericht",
         "Alternativantwortaufgabe"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 2.pdf",
       "category": "HF3/Lernerfolgskontrolle",
       "solutionAvailable": false,
       "optionCount": 1,
@@ -10284,7 +10284,7 @@ window.QUESTIONS_DATA = {
         "ankreuzen.",
         "Aufgaben in gebundener Form sind objektiver zu bewerten.."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Aufgabenformen 3.pdf",
       "category": "HF3/Lernerfolgskontrolle",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10323,7 +10323,7 @@ window.QUESTIONS_DATA = {
         "Abschlussprüfung vorzubereiten.",
         "Einzelarbeit anordnen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Auswertung der ZwP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Auswertung der ZwP.pdf",
       "category": "HF3/Lernerfolgskontrolle",
       "solutionAvailable": true,
       "optionCount": 151,
@@ -10510,7 +10510,7 @@ window.QUESTIONS_DATA = {
         "Ergebnisse der Lernerfolgskontrollen sind vor und nach der Durchführung mit dem Auszubildenden zu",
         "besprechen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Grundsätze.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lernerfolgskontrolle/Grundsätze.pdf",
       "category": "HF3/Lernerfolgskontrolle",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10544,7 +10544,7 @@ window.QUESTIONS_DATA = {
         "Das hier Erlernte werden Sie nochmals von einem anderen Ausbilder vermittelt bekommen.",
         "Teile des hier Erlernten können Sie ggf. auch auf private Situationen übertragen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Lerntransfer.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Lerntransfer.pdf",
       "category": "HF3",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10582,7 +10582,7 @@ window.QUESTIONS_DATA = {
         "Der/die Auszubildende soll eine Werkbank säubern.",
         "Der/die Auszubildende soll eine Projektgruppe leiten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Jonas u. Clara.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Jonas u. Clara.pdf",
       "category": "HF3",
       "solutionAvailable": false,
       "optionCount": 2,
@@ -10620,7 +10620,7 @@ window.QUESTIONS_DATA = {
         "Die Auszubildenden setzen sich zu einer Arbeitsgruppe zusammen.",
         "Der Ausbilder erklärt die Arbeitsschritte."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/4SM 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/4SM 1.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10664,7 +10664,7 @@ window.QUESTIONS_DATA = {
         "4. Stufe: Hinweise zur Arbeitssicherheit geben",
         "4. Stufe: Formulierung von Richtlernzielen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/4SM 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/4SM 2.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 126,
@@ -10832,7 +10832,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder beachtet die Minderleistungen nicht und hofft darauf, dass sie bei einer anderen",
         "Aufgabenstellung nicht in Erscheinung treten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Ausbildugsziele.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Ausbildugsziele.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -10870,7 +10870,7 @@ window.QUESTIONS_DATA = {
         "Er trägt vor und lenkt die Vorgänge im Denkverhalten.",
         "Er vollzieht gedanklich die Orientierung nach und lenkt die Vorgänge im Diskussionsverhalten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/darbietende Methoden 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/darbietende Methoden 1.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10915,7 +10915,7 @@ window.QUESTIONS_DATA = {
         "Pinnwand-Methode",
         "Vortrag"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/darbietende Methoden 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/darbietende Methoden 2.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10951,7 +10951,7 @@ window.QUESTIONS_DATA = {
         "Lernen in der Arbeit",
         "Lehrgespräch"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Fremd- u. Selbststeuerung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Fremd- u. Selbststeuerung.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -10989,7 +10989,7 @@ window.QUESTIONS_DATA = {
         "Diskussion",
         "Rundgespräch"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/für die Gemeinschaft.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/für die Gemeinschaft.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -11027,7 +11027,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder veåeilt eine Liste der Lieferbedingungen an seine Auszubildenden und fordert sie zu einer",
         "Gruppendiskussion auf."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Kurzvortrag 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Kurzvortrag 1.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -11064,7 +11064,7 @@ window.QUESTIONS_DATA = {
         "Anreichem der Stoffsammlung mit möglichst vielen Zusatzinformationen",
         "Anreichern des Vortrags mit zusätzlichen Informationsunterlagen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Kurzvortrag 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Kurzvortrag 2.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -11102,7 +11102,7 @@ window.QUESTIONS_DATA = {
         "der Gesamtfunktion des Computers beitragen.",
         "Im Lehrgespräch kann der Ausbilder sein gesamtes Fachwissen den Auszubildenden vermitteln."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Lehrgespräch 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lehrgespräch 1.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -11138,7 +11138,7 @@ window.QUESTIONS_DATA = {
         "Sie vereinbaren für diese Fälle mit dem Firmeninhaber, Herrn Peters, zusätzliche externe",
         "Schulungsmaßnahmen, die an den Wochenenden stattfinden sollen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Lernhilfen 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lernhilfen 1.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 228,
@@ -11398,7 +11398,7 @@ window.QUESTIONS_DATA = {
         "Lernhilfen zur Übertragung des Lernstoffes.",
         "Lernhilfen, die Fehler beim Ausführen der Arbeit entgegenwirken."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Lernhilfen 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lernhilfen 2.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 51,
@@ -11486,7 +11486,7 @@ window.QUESTIONS_DATA = {
         "Demonstration",
         "Rollenspiel"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Lernziel vollständig.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Lernziel vollständig.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -11523,7 +11523,7 @@ window.QUESTIONS_DATA = {
         "Den Namen eines Auszubildenden nennen und dann gezielt eine Frage stellen.",
         "Komplizierte Betriebssituationen zum Inhalt des Lehrgesprächs machen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/LG Grundsätze.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/LG Grundsätze.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -11562,7 +11562,7 @@ window.QUESTIONS_DATA = {
         "Welche Rettungszeichen kennen Sie?",
         "Hat Ihnen meine Darstellung zum Thema oder die Ausführung meines Kollegen besser gefallen?"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/LG W-Fragen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/LG W-Fragen.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -11614,7 +11614,7 @@ window.QUESTIONS_DATA = {
         "Gruppenarbeit",
         "Leittext"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Methodenmix Pjm.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Methodenmix Pjm.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -11652,7 +11652,7 @@ window.QUESTIONS_DATA = {
         "Strukturierung der Moderation",
         "Kontrolle der Arbeitsaufgaben"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/moderietes Gespräch.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/moderietes Gespräch.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -11701,7 +11701,7 @@ window.QUESTIONS_DATA = {
         "Appell an alle Fachkräfte des Geschäfts, bei der Zusammenarbeit mit den Auszubildenden im",
         "Schuhverkauf die Fachausdrücke zu betonen und die Empfehlung der Pflegemittel zu begründen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Mängel in der ZwP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Mängel in der ZwP.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": false,
       "optionCount": 1,
@@ -11739,7 +11739,7 @@ window.QUESTIONS_DATA = {
         "Die Auszubildenden sollen ihr Verhalten anderen gegenüber kritisch hinterfragen und dieses eventuell",
         "ändern."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Rollenspiel 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Rollenspiel 1.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -11779,7 +11779,7 @@ window.QUESTIONS_DATA = {
         "Sie überprüfen die Anwendung der erworbenen Kenntnisse in einem Rollenspiel.",
         "Sie lassen sich die Anwendung der erworbenen Kenntnisse von Ihren Auszubildenden erklären."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Rollenspiel 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Rollenspiel 2.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -11817,7 +11817,7 @@ window.QUESTIONS_DATA = {
         "Sie beobachten den Lernprozess genau und beraten die Auszubildenden fortlaufend.",
         "Die Auszubildenden werden bereits bei der Planung der Aufgaben von Ihnen mit einbezogen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Selbstgesteuertes Lernen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Selbstgesteuertes Lernen.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 273,
@@ -12127,7 +12127,7 @@ window.QUESTIONS_DATA = {
         "Vorstellen der Arbeitsergebnisse der Einzelgruppen.",
         "Zusammenfassen der Arbeitsergebnisse zu einem Gesamtergebnis."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/themenvers GA.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/themenvers GA.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -12168,7 +12168,7 @@ window.QUESTIONS_DATA = {
         "Vorführende Unterweisungsform",
         "Vormachende Unterweisungsform"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Unterweisungsformen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Unterweisungsformen.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -12210,7 +12210,7 @@ window.QUESTIONS_DATA = {
         "Der Moderator leitet die Moderation autoritär.",
         "Der Moderator lässt den Zeitraum völlig offen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Verhaltensregeln Moderator.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Verhaltensregeln Moderator.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -12250,7 +12250,7 @@ window.QUESTIONS_DATA = {
         "Es genügt, wenn der Ausbilder zwei bis drei Methoden beherrscht.",
         "Der Ausbilder sollte zusammen mit den Auszubildenden über die Methodenwahl entscheiden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Methoden/Wahl der Methode.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Methoden/Wahl der Methode.pdf",
       "category": "HF3/Methoden",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -12288,7 +12288,7 @@ window.QUESTIONS_DATA = {
         "Caritative Einrichtungen",
         "Landesschulbehörde"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Beratung 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Beratung 1.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 121,
@@ -12442,7 +12442,7 @@ window.QUESTIONS_DATA = {
         "Das Zuspätkommen sollte nicht beachtet werden in der Hoffnung, dass Ben sein Verhalten dann",
         "selbst reguliert."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Ben 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Ben 1.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -12477,7 +12477,7 @@ window.QUESTIONS_DATA = {
         "Das Zuspätkommen sollte nicht beachtet werden in der Hoffnung, dass Ben sein Verhalten dann",
         "selbst reguliert."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Ben 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Ben 2.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 181,
@@ -12691,7 +12691,7 @@ window.QUESTIONS_DATA = {
         "Ben zeigt eine besonders hohe Anstrengungsbereitschaft.",
         "Ben ersetzt die Lücken in der Fremderziehung durch Selbsterziehung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Ben 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Ben 3.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -12728,7 +12728,7 @@ window.QUESTIONS_DATA = {
         "überfordert ist.",
         "Sie geben Laura eine Arbeitsaufgabe und auch die entsprechenden Lösungen dazu."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Laura-bes. Aufgabe.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Laura-bes. Aufgabe.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -12765,7 +12765,7 @@ window.QUESTIONS_DATA = {
         "Sie sagen Laura, dass sie sich mehr anstrengen muss.",
         "Sie besprechen die Situation mit Laura und vereinbaren ein weiteres Gespräch in einer Woche."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Laura-Lager.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Laura-Lager.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 188,
@@ -12998,7 +12998,7 @@ window.QUESTIONS_DATA = {
         "Sie sagen ihr, dass die Gruppe von Auszubildenden es nicht recht verstehen werde, wenn gerade Laura",
         "\"Sonderrechte\" bekommt."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Laura-Sozialamt.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Laura-Sozialamt.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -13042,7 +13042,7 @@ window.QUESTIONS_DATA = {
         "Konflikte sind eine Chance für persönliche Weiterentwicklung.",
         "Wir sollten selbst Konfliktsituationen schaffen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Konflikte.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Konflikte.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -13084,7 +13084,7 @@ window.QUESTIONS_DATA = {
         "Florian an zusätzlichen Tagen in den Betrieb kommen lassen.",
         "Die Berufsschule informieren."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/Lernschwierigkeiten.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/Lernschwierigkeiten.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -13135,7 +13135,7 @@ window.QUESTIONS_DATA = {
         "Möglichkeit zu vermeiden, da dadurch das selbstgesteuerte Lernen häufig gestört wird.",
         "Didaktische Prinzipien sind auch bei der Unterweisung am Arbeitsplatz anzuwenden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Probleme/mit dem Lernort.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Probleme/mit dem Lernort.pdf",
       "category": "HF3/Probleme",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -13182,7 +13182,7 @@ window.QUESTIONS_DATA = {
         "Sauberkeit und Ordnung",
         "Eigeninitiative"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ fördern.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ fördern.pdf",
       "category": "HF3/Schlüsselqualifikationen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -13218,7 +13218,7 @@ window.QUESTIONS_DATA = {
         "Unterordnungsfähigkeit",
         "Toleranzfähigkeit"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ im Team 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ im Team 1.pdf",
       "category": "HF3/Schlüsselqualifikationen",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -13256,7 +13256,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder geht davon aus, dass Ausbildungsinhalte am effektivsten in Einzelarbeit erarbeitet",
         "werden können."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ im Team 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Schlüsselqualifikationen/SQ im Team 2.pdf",
       "category": "HF3/Schlüsselqualifikationen",
       "solutionAvailable": true,
       "optionCount": 191,
@@ -13482,7 +13482,7 @@ window.QUESTIONS_DATA = {
         "Soziales Aggregat",
         "Zu Beginn der Ausbildung handelt es sich noch nicht um eine Gruppe."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Sozialformen/Gruppen im Betrieb.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Gruppen im Betrieb.pdf",
       "category": "HF3/Sozialformen",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -13518,7 +13518,7 @@ window.QUESTIONS_DATA = {
         "Gruppen, -die-ihre Ziele- nicht er-reichen; schließen sich zu immer engeren- Notgemeinschaften",
         "zusammen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Sozialformen/Gruppendynamische Prozesse.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Gruppendynamische Prozesse.pdf",
       "category": "HF3/Sozialformen",
       "solutionAvailable": true,
       "optionCount": 210,
@@ -13764,7 +13764,7 @@ window.QUESTIONS_DATA = {
         "sein.",
         "Laura präsentiert die Gruppenergebnisse."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Sozialformen/Laura-Partnerarbeit.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Laura-Partnerarbeit.pdf",
       "category": "HF3/Sozialformen",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -13803,7 +13803,7 @@ window.QUESTIONS_DATA = {
         "Beim Auftreten von Lernschwierigkeiten wird eine Gruppe schneller entmutigt als ein Mndividuell",
         "Lernender."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Sozialformen/Lernverhalten.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Lernverhalten.pdf",
       "category": "HF3/Sozialformen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -13840,7 +13840,7 @@ window.QUESTIONS_DATA = {
         "Themenverschiedene Partnerarbeit",
         "Themenverschiedene Debatte"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Sozialformen/Sozialformen 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Sozialformen 1.pdf",
       "category": "HF3/Sozialformen",
       "solutionAvailable": false,
       "optionCount": 2,
@@ -13874,7 +13874,7 @@ window.QUESTIONS_DATA = {
         "Die Team-IPartnerarbeit kann erst dann verantwortet werden, wenn die Auszubildenden über alle",
         "Techniken verfügen, die innerhalb einer Team-IPartnerarbeit zur Anwendung gelangen können."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF3/Sozialformen/Sozialformen 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF3/Sozialformen/Sozialformen 2.pdf",
       "category": "HF3/Sozialformen",
       "solutionAvailable": true,
       "optionCount": 257,
@@ -14166,7 +14166,7 @@ window.QUESTIONS_DATA = {
         "Kevin muss nachweisen, dass er berufliche Handtungskompetenz eruorben hat.",
         "Kevin muss eine sechsjährige einschlägige Berufspraxis nachweisen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Abschluss ohne Ausbildung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Abschluss ohne Ausbildung.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -14213,7 +14213,7 @@ window.QUESTIONS_DATA = {
         "Über die Zulassung zur Abschlussprüfung entscheidet die Industrie- und Handelskammer. Hält sie die",
         "Zulassungsvoraussetzungen nicht für gegeben, so entscheidet der Prüfungsausschuss."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Antworten zum PA.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Antworten zum PA.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14257,7 +14257,7 @@ window.QUESTIONS_DATA = {
         "Zulassungsvoraussetzungen nicht für gegeben, so entscheidet der Prüfungsausschuss.",
         "Mehrere zuständige Stellen können bei einer von diesen gemeinsame Prüfungsausschüsse errichten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Aussagen zum PA 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Aussagen zum PA 1.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14293,7 +14293,7 @@ window.QUESTIONS_DATA = {
         "Die IHK hat den Prüfungsausschuss errichtet. Der Prüfungsausschuss besteht aus mindestens drei",
         "Mitgliedern. Die Tätigkeit ist ehrenamtlich."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Aussagen zum PA 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Aussagen zum PA 2.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 197,
@@ -14523,7 +14523,7 @@ window.QUESTIONS_DATA = {
         "Zeitablauf",
         "Außerordentliche Kündigung"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Ende der Asbg.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Ende der Asbg.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14567,7 +14567,7 @@ window.QUESTIONS_DATA = {
         "Sekundarabschluss I — Realschule), kann sie mit abgeschlossener Berufsausbildung die 13. Klasse",
         "der Berufsfachschule besuchen. Dort hat Carla die Möglichkeit, die Fachhochschulreife zu erlangen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Fachoberschule.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Fachoberschule.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -14613,7 +14613,7 @@ window.QUESTIONS_DATA = {
         "Die bestandene Zwischenprüfung ist Voraussetzung zum Wiederholen einer nicht bestandenen",
         "Abschlussprüfung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Leon-ZwP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Leon-ZwP.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14647,7 +14647,7 @@ window.QUESTIONS_DATA = {
         "Im Berufsbildungsförderungsgesetz",
         "Im Betriebsverfassungsgesetz"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Inhalte der AP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Inhalte der AP.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 66,
@@ -14745,7 +14745,7 @@ window.QUESTIONS_DATA = {
         "Der Auszubildende",
         "Das Bundesland"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Kosten-Gebühren.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Kosten-Gebühren.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14779,7 +14779,7 @@ window.QUESTIONS_DATA = {
         "Der Lehrer für Fachpraxis",
         "Die Eltern des Auszubildenden"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Kosten-Mat..pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Kosten-Mat..pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14813,7 +14813,7 @@ window.QUESTIONS_DATA = {
         "Beginn.",
         "Die Ausbildung endet mit dem Bestehen der Abschlussprüfung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Krause-Ende der Asbg.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Krause-Ende der Asbg.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14848,7 +14848,7 @@ window.QUESTIONS_DATA = {
         "Im Ausbildungsberufsbild",
         "Im Ausbildungsrahmenplan"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Quelle der Prüfungsanforderungen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Quelle der Prüfungsanforderungen.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14887,7 +14887,7 @@ window.QUESTIONS_DATA = {
         "Sieht die Ausbildungsordnung vor, dass die Abschlussprüfung in zwei zeitlich getrennten Teilen",
         "durchgeführt wird, entfällt die Zwischenprüfung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Rechtslage zur AP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Rechtslage zur AP.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14924,7 +14924,7 @@ window.QUESTIONS_DATA = {
         "Zuzulassen ist, wer eine Bescheinigung über die Nachuntersuchung vorgelegt hat.",
         "Zuzulassen ist, wer an der Zwischenprüfung bzw. Abschlussprüfung Teil 1 teilgenommen hat."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 1.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -14963,7 +14963,7 @@ window.QUESTIONS_DATA = {
         "Zuzulassen ist, wer nicht mehr als 30 Ausbildungstage versäumt hat.",
         "Zuzulassen ist, wer die Zwischenprüfung bestanden hat."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 2.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 271,
@@ -15273,7 +15273,7 @@ window.QUESTIONS_DATA = {
         "Der Berufsausbildungsvertrag wurde in die Kammerordnung eingetragen.",
         "Georg muss einen Berufsschulabschluss vorweisen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 3.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -15306,7 +15306,7 @@ window.QUESTIONS_DATA = {
         "Der Geschäftsführer der IHK.",
         "Die Landesschulbehörde."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 4.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Regelzulassung 4.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 31,
@@ -15374,7 +15374,7 @@ window.QUESTIONS_DATA = {
         "Nur der Ausbildende kann eine vorzeitige Zulassung zur Abschlussprüfung bei der zuständigen Stelle",
         "beantragen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 1.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -15418,7 +15418,7 @@ window.QUESTIONS_DATA = {
         "Ja, da nur Bettina entscheiden kann, wann sie die Abschlussprüfung ablegen will, muss die Industrie-",
         "und Handelskammer ihr nach der Zwischenprüfung jederzeit die Abschlussprüfung genehmigen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 2.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -15456,7 +15456,7 @@ window.QUESTIONS_DATA = {
         "Die Erziehungsberechtigten stimmen dem Antrag zu.",
         "Die Berufsschule stimmt dem Antrag zu."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Vorzeitige 3.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -15496,7 +15496,7 @@ window.QUESTIONS_DATA = {
         "Verlängerung zu gewähren.",
         "Eine weitere Vertragsverlängerung durch Solan GmbH ist nicht möglich."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen 1.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -15535,7 +15535,7 @@ window.QUESTIONS_DATA = {
         "mehr verlängert zu werden.",
         "Eine erneute Verlängerung der Ausbildungszeit ist nicht mehr möglich."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen 2.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 163,
@@ -15732,7 +15732,7 @@ window.QUESTIONS_DATA = {
         "Alle halbe Jahre",
         "Einmal"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen der AP.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Prüfungen/Wiederholen der AP.pdf",
       "category": "HF4/Prüfungen",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -15778,7 +15778,7 @@ window.QUESTIONS_DATA = {
         "Die zuständige Stelle kann nur auf Antrag des Auszubildenden die Ausbildungszeit verlängern, wenn",
         "dies zur Zielerreichung notwendig ist."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Verkürzung Verlängerung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Verkürzung Verlängerung.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -15820,7 +15820,7 @@ window.QUESTIONS_DATA = {
         "Erst wenn.Thomas die Abschlussprüfung nicht bestanden hat, kann er einen Antrag auf Verlängerung",
         "stellen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Verlängerung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Verlängerung.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -15858,7 +15858,7 @@ window.QUESTIONS_DATA = {
         "Mai",
         "August"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 1.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 3,
@@ -15898,7 +15898,7 @@ window.QUESTIONS_DATA = {
         "Sie- können sich nach der Ausbildung von Sven-nur trennen, wenn der Ausbildungsberater der",
         "zuständigen Stelle sein Zustimmung erteilt."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 2.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 2,
@@ -15937,7 +15937,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbildungsbetrieb und Georg können nur innerhalb von sechs Wochen nach bestandener",
         "Abschlussprüfung einen Arbeitsvertrag eingehen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Weiterbeschäftigung 3.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 166,
@@ -16145,7 +16145,7 @@ window.QUESTIONS_DATA = {
         "Für Ihre weitere berufliche Laufbahn wünschen wir Ihnen viel Erfolg.",
         "Frau Peters hat immer besonders auf die berufsgenossenschaftlichen Vorschriften geachtet."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Zeugnisinhalt 1.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Zeugnisinhalt 1.pdf",
       "category": "HF4",
       "solutionAvailable": false,
       "optionCount": 2,
@@ -16187,7 +16187,7 @@ window.QUESTIONS_DATA = {
         "Sein Verhalten war stets einwandfrei.",
         "Herr Deister gehört zum Kader des niedersächsischen Rugby-Verbandes."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Zeugnisinhalt 2.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Zeugnisinhalt 2.pdf",
       "category": "HF4",
       "solutionAvailable": false,
       "optionCount": 2,
@@ -16219,7 +16219,7 @@ window.QUESTIONS_DATA = {
         "Abschlusszeugnis des Ausbildungsbetriebes",
         "Prüfungszeugnis der zuständigen Stelle"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/HF4/Zeugnisse.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/HF4/Zeugnisse.pdf",
       "category": "HF4",
       "solutionAvailable": true,
       "optionCount": 1,
@@ -16272,7 +16272,7 @@ window.QUESTIONS_DATA = {
         "Ende der Ausbildung",
         "Vertragspartner"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Inhalte BAV (Tabelle).pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Inhalte BAV (Tabelle).pdf",
       "category": ".",
       "solutionAvailable": false,
       "optionCount": 1,
@@ -16306,7 +16306,7 @@ window.QUESTIONS_DATA = {
         "Nachweisgesetz",
         "Bürgerliches Gesetzbuch"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Inhalte BAV.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Inhalte BAV.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -16351,7 +16351,7 @@ window.QUESTIONS_DATA = {
         "Laura schafft später die schriftliche Abschlussprüfung spielend.",
         "Die anderen Auszubildenden werden unzufrieden und lassen in ihrer Leistungsbereitschaft nach."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Laura vorgegebene Zeit.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Laura vorgegebene Zeit.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -16391,7 +16391,7 @@ window.QUESTIONS_DATA = {
         "Bei der Kündigung ist die Angabe von Gründen nicht erforderlich.",
         "Bei der Kündigung ist die Angabe von Gründen erforderlich."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Kündigung in der Probezeit.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Kündigung in der Probezeit.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -16428,7 +16428,7 @@ window.QUESTIONS_DATA = {
         "Lernhilfen zur Übertragung des Lernstoffes.",
         "Lemhilfen, die Fehlern beim Ausführen der Arbeit entgegenwirken."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Lernhilfe.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Lernhilfe.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -16468,7 +16468,7 @@ window.QUESTIONS_DATA = {
         "Für alle Auszubildenden besteht eine Berufsschulpflicht.",
         "Die Berufsschulpflicht ist im BBiG geregelt."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Lernort BBS.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Lernort BBS.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 7,
@@ -16524,7 +16524,7 @@ window.QUESTIONS_DATA = {
         "Dieser Lernort dient vorrangig zur systematischen Vermittlung von grundlegenden Fertigkeiten sowie",
         "neuer Techniken."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Lernorte zuordnen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Lernorte zuordnen.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -16587,7 +16587,7 @@ window.QUESTIONS_DATA = {
         "Pinnwand-Methode",
         "Vortrag"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Methodenkombination.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Methodenkombination.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -16625,7 +16625,7 @@ window.QUESTIONS_DATA = {
         "anschließender Auswertung.",
         "Folienunterstützter Vortrag zum Thema : Soziales Engagement in unserer Stadt."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Moderationstechnik.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Moderationstechnik.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -16667,7 +16667,7 @@ window.QUESTIONS_DATA = {
         "von Kenntnissen geben können.",
         "Sie lassen Michael Kenntnisse künftig allein erarbeiten."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Nach d. Zwischenprüfung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Nach d. Zwischenprüfung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 6,
@@ -16710,7 +16710,7 @@ window.QUESTIONS_DATA = {
         "Mara auf angebotene Sprachkurse aufmerksam machen und den Besuch nahelegen.",
         "Mara nachdrücklich tadeln."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Probleme Mara.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Probleme Mara.pdf",
       "category": ".",
       "solutionAvailable": false,
       "optionCount": 5,
@@ -16746,7 +16746,7 @@ window.QUESTIONS_DATA = {
         "Das Ergebnis betrieblicher Leistungsfeststellungen.",
         "Eine englischsprachige und eine französischsprachige Übersetzung."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Prüfungszeugnis.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Prüfungszeugnis.pdf",
       "category": ".",
       "solutionAvailable": false,
       "optionCount": 6,
@@ -16781,7 +16781,7 @@ window.QUESTIONS_DATA = {
         "Berufsbildungsgesetz",
         "Schulgesetze der Länder"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Rechsquellen Voraussetzungen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Rechsquellen Voraussetzungen.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 5,
@@ -16826,7 +16826,7 @@ window.QUESTIONS_DATA = {
         "Mutterschutzgesetz",
         "Arbeitszeitgesetz"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/rechtliche Grundlagen.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/rechtliche Grundlagen.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 12,
@@ -16909,7 +16909,7 @@ window.QUESTIONS_DATA = {
         "Hochschulreife/",
         "Abitur"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Schulabschlüsse.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Schulabschlüsse.pdf",
       "category": ".",
       "solutionAvailable": false,
       "optionCount": 3,
@@ -16953,7 +16953,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbilder gibt den Auszubildenden genügend Zeit, um Schwierigkeiten zu überwinden und eine",
         "Lösung zu finden."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Selbstständigkeit_Eigeninitiative fördern.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Selbstständigkeit_Eigeninitiative fördern.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 9,
@@ -17001,7 +17001,7 @@ window.QUESTIONS_DATA = {
         "Themenverschiedene Partnerarbeit",
         "Themenverschiedene Debatte"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Sozialform d. Lernens.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Sozialform d. Lernens.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -17057,7 +17057,7 @@ window.QUESTIONS_DATA = {
         "Informaüonen beschaffen",
         "Arbeitsergemisse beurteilen"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Spezi HF3.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Spezi HF3.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 4,
@@ -17100,7 +17100,7 @@ window.QUESTIONS_DATA = {
         "Der Ausbildende und der Auszubildende müssen den Antrag bei der zuständigen Stelle stellen.",
         "Eine zusätzliche Verkürzung der Ausbildung, z.B. wegen schulischer Vorbildung, ist ausgeschlossen."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Teilzeit Berufsausbildung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Teilzeit Berufsausbildung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 9,
@@ -17156,7 +17156,7 @@ window.QUESTIONS_DATA = {
         "Die zuständige Stelle kann nur auf Antrag des Auszubildenden die Ausbildungszeit verlängern, wenn",
         "dies zur Zielerreichung notwendig ist."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Verlängerung_Verkürzung.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Verlängerung_Verkürzung.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 9,
@@ -17205,7 +17205,7 @@ window.QUESTIONS_DATA = {
         "Die Erziehungsberechtigten stimmen dem Antrag zu.",
         "Die Berufsschule stimmt dem Antrag zu."
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Voraussetzung vorzeitige Abschlprüf..pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Voraussetzung vorzeitige Abschlprüf..pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 7,
@@ -17252,7 +17252,7 @@ window.QUESTIONS_DATA = {
         "Die Effektivität der Ausbildung wird verbessert.",
         "Selbstständigkeit und Eigenverantwortng nehmen zu"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Vorteile Teamarbeit.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Vorteile Teamarbeit.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -17301,7 +17301,7 @@ window.QUESTIONS_DATA = {
         "mit Arbeitsmitteln verantwortlich umgehen können",
         "die benötigte Materialmenge berechnen können"
       ],
-      "source": "quelle/Prüfungsfragen HF bezogen/Zuordnung Lernbereiche.pdf",
+      "source": "originals/Prüfungsfragen HF bezogen/Zuordnung Lernbereiche.pdf",
       "category": ".",
       "solutionAvailable": true,
       "optionCount": 8,
@@ -17338,3 +17338,4 @@ window.QUESTIONS_DATA = {
     }
   ]
 };
+
