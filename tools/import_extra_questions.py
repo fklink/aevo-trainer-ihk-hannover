@@ -224,10 +224,9 @@ def main():
         if question.get("manualEdited") and question.get("source")
     }
     imported = []
-    seen_fingerprints = set()
     next_id = 1
 
-    for meta_item in sort_meta_items(meta["items"]):
+    for meta_item in meta["items"]:
         image_name = Path(meta_item["image"]).name
         legacy_image_name = f"q{int(meta_item['id']) + 48:03d}.png"
         item = ocr_by_name.get(image_name) or ocr_by_name.get(legacy_image_name)
@@ -296,11 +295,6 @@ def main():
         if meta_item["source"] in manual_by_source:
             question = manual_by_source[meta_item["source"]]
 
-        fingerprint = normalize_for_dedupe(question)
-        if fingerprint and fingerprint in seen_fingerprints:
-            continue
-        if fingerprint:
-            seen_fingerprints.add(fingerprint)
         imported.append(question)
         next_id += 1
 
