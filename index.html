@@ -69,6 +69,7 @@ function q(){return data.questions[order[idx]]}
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function questionText(qu){return qu.question||qu.text||qu.prompt||''}
 function hasTextQuestion(qu){return Boolean(questionText(qu)||Array.isArray(qu.options))}
+function hasSolution(qu){return Array.isArray(qu.correct)&&qu.correct.length>0&&qu.solutionAvailable!==false}
 function render(){
   const qu=q();
   document.getElementById('meta').textContent=`Frage ${idx+1} von ${order.length} - Punkte: ${score}/${totalPoints()}`;
@@ -76,8 +77,13 @@ function render(){
   html+='<div class="trainer"><main class="question-copy">';
   if(questionText(qu)) html+=`<div class="question-text">${esc(questionText(qu))}</div>`;
   if(!hasTextQuestion(qu)) html+='<div class="question-note">Diese Frage liegt aktuell nur als Bild vor. Für eine barrierearme Ansicht müssen Fragetext und Antworttexte in der JSON ergänzt werden.</div>';
+  if(!hasSolution(qu)) html+='<div class="question-note">Für diese Zusatzfrage ist noch keine Lösung hinterlegt. Sie wird als Übungsfrage angezeigt und nicht in die Punktewertung einbezogen.</div>';
   html+=inputHtml(qu);
-  html+=`<div class="btns"><button class="good" onclick="check()">Prüfen</button><button class="secondary" onclick="prev()">Zurück</button><button onclick="next()">Weiter</button><button class="warn" onclick="showSolution()">Lösung anzeigen</button></div><div id="result" class="result"></div></main>`;
+  html+='<div class="btns">';
+  if(hasSolution(qu)) html+='<button class="good" onclick="check()">Prüfen</button>';
+  html+='<button class="secondary" onclick="prev()">Zurück</button><button onclick="next()">Weiter</button>';
+  if(hasSolution(qu)) html+='<button class="warn" onclick="showSolution()">Lösung anzeigen</button>';
+  html+='</div><div id="result" class="result"></div></main>';
   if(qu.image) html+=`<aside class="image-panel"><details ${hasTextQuestion(qu)?'':'open'}><summary>Originalbild</summary><img class="question-img" src="${esc(qu.image)}" alt="${esc(qu.title)}"></details></aside>`;
   html+='</div>';
   document.getElementById('app').innerHTML=html;
@@ -108,14 +114,14 @@ function inputHtml(qu){
 }
 function selected(){const qu=q(); if(qu.type==='choice') return [...document.querySelectorAll('input:checked')].map(e=>+e.value).sort((a,b)=>a-b); return [...document.querySelectorAll('select')].map(e=>e.value?+e.value:null);}
 function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
-function check(){const qu=q(), s=selected(); const ok=equal(s,qu.correct); const el=document.getElementById('result'); if(ok){el.className='result ok';el.textContent='Richtig.'; score+=qu.points;} else {el.className='result bad'; el.textContent='Noch nicht richtig. Deine Eingabe: '+fmt(s)+' - Lösung: '+fmt(qu.correct);} answered++;}
+function check(){const qu=q(), s=selected(); const el=document.getElementById('result'); if(!hasSolution(qu)){el.className='result'; el.textContent='Für diese Frage ist keine Lösung hinterlegt.'; return;} const ok=equal(s,qu.correct); if(ok){el.className='result ok';el.textContent='Richtig.'; score+=qu.points;} else {el.className='result bad'; el.textContent='Noch nicht richtig. Deine Eingabe: '+fmt(s)+' - Lösung: '+fmt(qu.correct);} answered++;}
 function fmt(a){return '['+a.map(x=>x===null?'-':x).join(', ')+']'}
-function showSolution(){const qu=q(); document.getElementById('result').className='result'; document.getElementById('result').textContent='Lösung: '+fmt(qu.correct)+(qu.explanation?' - '+qu.explanation:'');}
+function showSolution(){const qu=q(); document.getElementById('result').className='result'; document.getElementById('result').textContent=hasSolution(qu)?'Lösung: '+fmt(qu.correct)+(qu.explanation?' - '+qu.explanation:''):'Für diese Frage ist keine Lösung hinterlegt.';}
 function next(){if(idx<order.length-1){idx++;render();}}
 function prev(){if(idx>0){idx--;render();}}
 function shuffleQuestions(){for(let i=order.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]]} idx=0; render();}
 function resetProgress(){idx=0;score=0;answered=0;order=[...Array(data.questions.length).keys()];render();}
-function totalPoints(){return data?data.questions.reduce((s,q)=>s+q.points,0):0}
+function totalPoints(){return data?data.questions.reduce((s,q)=>hasSolution(q)?s+q.points:s,0):0}
 </script>
 </body>
 </html>

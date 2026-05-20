@@ -74,6 +74,47 @@ QUESTION_COMPANY_GROUPS = {
     47: [["Heinrich Mann OHG", "Heinrich Mann"]],
 }
 
+GLOBAL_EXTRA_REPLACEMENTS = {
+    "Peter": "Paul",
+    "Paula": "Nora",
+    "Felix": "Mats",
+    "Miguel": "Jan",
+    "Juan": "Tobias",
+    "Franzi": "Lena",
+    "Franz": "Leon",
+    "Alberto": "Noah",
+    "Iberto": "Noah",
+    "Pepe": "Tim",
+    "Irina": "Laura",
+    "Irinas": "Lauras",
+    "llrina": "Laura",
+    "\"rina": "Laura",
+    "Carmen": "Mara",
+    "Carmens": "Maras",
+    "Hans": "Ben",
+    "Jule": "Lea",
+    "Manuel Wagner": "Jonas Richter",
+    "Manuel": "Jonas",
+    "Alexandra": "Clara",
+    "Christian": "David",
+    "Charlotte": "Sophie",
+    "Hugo Schmidt": "Finn Berger",
+    "Sabine Klein": "Anna Keller",
+    "Torsten Mantey": "Julian Fischer",
+    "Katharina Theis": "Julia Hoffmann",
+    "Otto Adam": "Paul Brandt",
+    "Herr Nose": "Herr Weber",
+    "Nose": "Weber",
+    "Herr Kribbe": "Herr Schmitt",
+    "Kribbe": "Schmitt",
+    "Erwo GmbH": "Nordblick GmbH",
+    "Classic & Co.": "Nova & Co.",
+    "Classic & Co": "Nova & Co",
+    "Peters Bürobedarf OHG": "Terval Bürobedarf OHG",
+    "Seedeich GmbH": "Aventra GmbH",
+    "Felixus GmbH": "Konova GmbH",
+}
+
 
 def pick_unused(pool, used):
     choices = [item for item in pool if item not in used]
@@ -181,6 +222,8 @@ def main():
             company_replacements.update(company_replacement_for(aliases, used_companies))
         if company_replacements:
             question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, company_replacements))
+
+        question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, GLOBAL_EXTRA_REPLACEMENTS))
 
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "questions.js").write_text(
