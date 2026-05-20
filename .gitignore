@@ -9,6 +9,8 @@ __pycache__/
 # Temporary extraction/check folders
 tmp-*/
 tmp_*/
+ocr-text.json
+ocr-extra.json
 
 # Local editor/OS noise
 .DS_Store
