@@ -20,6 +20,17 @@ LAST_NAMES = [
     "Hoffmann", "Richter", "Wolf", "Schulz", "Krause", "Bauer",
     "Vogel", "Schmitt", "Hartmann", "Brandt", "Seidel", "Becker",
 ]
+COMPANY_NAMES = [
+    "Nordblick", "Maventa", "Bergfeld", "Solvion", "Altrona", "Westhafen",
+    "Noventis", "Klarwerk", "Rheinpunkt", "Valora", "Hansewerk", "Primora",
+    "Aventra", "Lunaris", "Modulix", "Feldwerk", "Terval", "Konova",
+]
+COMPANY_BY_SUFFIX = {
+    "GmbH": ["Nordblick GmbH", "Maventa GmbH", "Klarwerk GmbH", "Primora GmbH", "Aventra GmbH", "Konova GmbH"],
+    "KG": ["Bergfeld KG", "Westhafen KG", "Rheinpunkt KG", "Feldwerk KG"],
+    "AG": ["Solvion AG", "Altrona AG", "Hansewerk AG", "Lunaris AG"],
+    "OHG": ["Noventis OHG", "Valora OHG", "Rheinpunkt OHG", "Terval OHG", "Modulix OHG"],
+}
 
 # Names observed in the current OCR-enriched question set. Aliases in one group
 # are OCR variants or grammatical variants that should stay one replacement.
@@ -44,7 +55,23 @@ QUESTION_NAME_GROUPS = {
     43: [("male", ["Bruno"])],
     45: [("male", ["Georg"])],
     46: [("female", ["Martina Koch", "Martina", "Koch"])],
-    47: [("last", ["Ausbilder Kurz", "Kurz"]), ("company", ["Heinrich Mann", "Heinrich", "Mann"])],
+    47: [("last", ["Ausbilder Kurz", "Kurz"])],
+}
+
+QUESTION_COMPANY_GROUPS = {
+    1: [["Erwo GmbH"]],
+    10: [["Erwo GmbH"]],
+    11: [["Energie Süd AG"]],
+    12: [["Schuster KG"]],
+    18: [["VWN AG", "VWN"]],
+    19: [["Envo GmbH"]],
+    20: [["VWN AG"]],
+    21: [["Lohmeyer OHG"]],
+    26: [["Menoka GmbH"]],
+    32: [["Deichgraf GmbH"]],
+    35: [["Peters"]],
+    38: [["Elektro-Max"]],
+    47: [["Heinrich Mann OHG", "Heinrich Mann"]],
 }
 
 
@@ -55,6 +82,17 @@ def pick_unused(pool, used):
     value = RNG.choice(choices)
     used.add(value)
     return value
+
+
+def company_replacement_for(aliases, used_companies):
+    canonical = aliases[0]
+    suffix_match = re.search(r"\b(GmbH|KG|AG|OHG)\b", canonical)
+    if suffix_match:
+        pool = COMPANY_BY_SUFFIX[suffix_match.group(1)]
+        replacement = pick_unused(pool, used_companies)
+    else:
+        replacement = pick_unused(COMPANY_NAMES, used_companies)
+    return {alias: replacement for alias in sorted(aliases, key=len, reverse=True)}
 
 
 def replacement_for(kind, aliases, used_first, used_last):
@@ -123,6 +161,7 @@ def main():
     data = json.loads(path.read_text(encoding="utf-8"))
     used_first = set()
     used_last = set()
+    used_companies = set()
 
     for question in data["questions"]:
         previous = question.get("nameReplacements")
@@ -136,6 +175,12 @@ def main():
             replacements.update(replacement_for(kind, aliases, used_first, used_last))
         if replacements:
             question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, replacements))
+
+        company_replacements = {}
+        for aliases in QUESTION_COMPANY_GROUPS.get(question["id"], []):
+            company_replacements.update(company_replacement_for(aliases, used_companies))
+        if company_replacements:
+            question.update(replace_recursive({k: v for k, v in question.items() if k != "nameReplacements"}, company_replacements))
 
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "questions.js").write_text(
