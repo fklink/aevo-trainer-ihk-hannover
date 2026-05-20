@@ -79,6 +79,7 @@ def import_ocr():
             by_id[int(match.group(1))] = item
 
     for question in data["questions"]:
+        question.pop("nameReplacements", None)
         item = by_id.get(question["id"])
         if not item:
             continue
