@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Nr. 90 Prüfungstrainer</title>
+<style>
+:root{color-scheme:light;--bg:#f3f4f6;--card:#fff;--text:#1f2933;--muted:#667085;--line:#d0d5dd;--soft:#f8fafc;--brand:#1f2937;--ok:#167a35;--bad:#b42318;--warn:#a15c00}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.45}
+.wrap{max-width:1180px;margin:auto;padding:16px}
+header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+h1{font-size:clamp(1.35rem,2.5vw,2rem);margin:0 0 4px}
+.card{background:var(--card);border:1px solid #eaecf0;border-radius:8px;box-shadow:0 2px 12px #0000000d;padding:16px}
+.trainer{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,430px);gap:18px;align-items:start}
+.question-copy{min-width:0}
+.question-text{font-size:1.08rem;margin:14px 0 4px;white-space:pre-wrap}
+.question-note{background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:10px 12px;margin-top:12px;color:#7c2d12}
+.question-img{width:100%;max-height:72vh;object-fit:contain;background:var(--soft);border:1px solid var(--line);border-radius:8px}
+.image-panel summary{cursor:pointer;color:var(--muted);font-weight:600;margin-bottom:8px}
+.answers{display:grid;gap:8px;margin-top:14px}
+.answer-row{display:flex;align-items:flex-start;gap:10px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
+.answer-row input{margin-top:4px}
+.answer-label{font-weight:700;min-width:2.4rem}
+.answer-text{min-width:0}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+button{border:0;border-radius:8px;padding:10px 14px;cursor:pointer;background:var(--brand);color:white;font-weight:650}
+button.secondary{background:#667085}
+button.good{background:var(--ok)}
+button.warn{background:var(--warn)}
+.result{font-weight:700;margin-top:12px}
+.ok{color:var(--ok)}
+.bad{color:var(--bad)}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+select{padding:8px;border-radius:8px;border:1px solid #98a2b3;max-width:100%}
+.pill{display:inline-block;background:#eef2f6;border-radius:999px;padding:4px 10px;margin:0 6px 6px 0}
+@media (max-width:850px){.trainer{grid-template-columns:1fr}.image-panel{order:2}.question-img{max-height:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>A Nr. 90 Prüfungstrainer</h1>
+      <div id="meta" class="muted"></div>
+    </div>
+    <div class="btns">
+      <button onclick="shuffleQuestions()">Mischen</button>
+      <button class="secondary" onclick="resetProgress()">Zurücksetzen</button>
+    </div>
+  </header>
+  <div class="card" id="app">Lade Fragen...</div>
+</div>
+<script src="questions.js"></script>
+<script>
+let data, order=[], idx=0, score=0, answered=0;
+const letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+loadQuestions();
+
+function start(j){data=j; order=[...Array(j.questions.length).keys()]; render();}
+function loadQuestions(){
+  if(window.QUESTIONS_DATA){start(window.QUESTIONS_DATA); return;}
+  fetch('questions.json').then(r=>r.json()).then(start).catch(()=>{
+    document.getElementById('app').innerHTML='<strong>Fragen konnten nicht geladen werden.</strong><p>Die Datei questions.js fehlt. Lege sie neben index.html ab oder starte einen lokalen Webserver.</p>';
+  });
+}
+function q(){return data.questions[order[idx]]}
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function questionText(qu){return qu.question||qu.text||qu.prompt||''}
+function hasTextQuestion(qu){return Boolean(questionText(qu)||Array.isArray(qu.options))}
+function render(){
+  const qu=q();
+  document.getElementById('meta').textContent=`Frage ${idx+1} von ${order.length} - Punkte: ${score}/${totalPoints()}`;
+  let html=`<div><span class="pill">${esc(qu.title)}</span><span class="pill">${qu.points} Punkt${qu.points>1?'e':''}</span><span class="pill">${typeLabel(qu.type)}</span></div>`;
+  html+='<div class="trainer"><main class="question-copy">';
+  if(questionText(qu)) html+=`<div class="question-text">${esc(questionText(qu))}</div>`;
+  if(!hasTextQuestion(qu)) html+='<div class="question-note">Diese Frage liegt aktuell nur als Bild vor. Für eine barrierearme Ansicht müssen Fragetext und Antworttexte in der JSON ergänzt werden.</div>';
+  html+=inputHtml(qu);
+  html+=`<div class="btns"><button class="good" onclick="check()">Prüfen</button><button class="secondary" onclick="prev()">Zurück</button><button onclick="next()">Weiter</button><button class="warn" onclick="showSolution()">Lösung anzeigen</button></div><div id="result" class="result"></div></main>`;
+  if(qu.image) html+=`<aside class="image-panel"><details ${hasTextQuestion(qu)?'':'open'}><summary>Originalbild</summary><img class="question-img" src="${esc(qu.image)}" alt="${esc(qu.title)}"></details></aside>`;
+  html+='</div>';
+  document.getElementById('app').innerHTML=html;
+}
+function typeLabel(t){return t==='choice'?'Auswahlfrage':t==='matrix'?'Rasterfrage':'Zuordnungs-/Reihenfolgefrage'}
+function inputHtml(qu){
+  if(qu.type==='choice'){
+    const options=Array.isArray(qu.options)?qu.options:[];
+    const count=Math.max(qu.optionCount||0,options.length);
+    let h='<div class="answers">';
+    for(let i=1;i<=count;i++){
+      const label=letters[i-1]||String(i);
+      const text=options[i-1]||`Antwort ${i}`;
+      h+=`<label class="answer-row"><input type="checkbox" value="${i}"><span class="answer-label">${label}</span><span class="answer-text">${esc(text)}</span></label>`;
+    }
+    return h+'</div>';
+  }
+  if(qu.type==='sequence'){
+    let vals=qu.values||[1,2,3,4,5,6,7,8];
+    let rows=Array.isArray(qu.rows)?qu.rows:[...Array(qu.optionCount||0)].map((_,i)=>`Zeile ${i+1}`);
+    let h='<div class="answers grid">';
+    rows.forEach((row,i)=>{h+=`<label class="answer-row"><span class="answer-text">${esc(row)}: <select data-pos="${i+1}"><option value="">--</option>${vals.map(v=>`<option>${esc(v)}</option>`).join('')}</select></span></label>`});
+    return h+'</div>';
+  }
+  let h='<div class="answers">';
+  qu.rows.forEach((r,i)=>{h+=`<label class="answer-row"><span class="answer-text">${i+1}. ${esc(r)}: <select data-pos="${i+1}"><option value="">--</option>${qu.columns.map((c,j)=>`<option value="${j+1}">${esc(c)}</option>`).join('')}</select></span></label>`});
+  return h+'</div>';
+}
+function selected(){const qu=q(); if(qu.type==='choice') return [...document.querySelectorAll('input:checked')].map(e=>+e.value).sort((a,b)=>a-b); return [...document.querySelectorAll('select')].map(e=>e.value?+e.value:null);}
+function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function check(){const qu=q(), s=selected(); const ok=equal(s,qu.correct); const el=document.getElementById('result'); if(ok){el.className='result ok';el.textContent='Richtig.'; score+=qu.points;} else {el.className='result bad'; el.textContent='Noch nicht richtig. Deine Eingabe: '+fmt(s)+' - Lösung: '+fmt(qu.correct);} answered++;}
+function fmt(a){return '['+a.map(x=>x===null?'-':x).join(', ')+']'}
+function showSolution(){const qu=q(); document.getElementById('result').className='result'; document.getElementById('result').textContent='Lösung: '+fmt(qu.correct)+(qu.explanation?' - '+qu.explanation:'');}
+function next(){if(idx<order.length-1){idx++;render();}}
+function prev(){if(idx>0){idx--;render();}}
+function shuffleQuestions(){for(let i=order.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]]} idx=0; render();}
+function resetProgress(){idx=0;score=0;answered=0;order=[...Array(data.questions.length).keys()];render();}
+function totalPoints(){return data?data.questions.reduce((s,q)=>s+q.points,0):0}
+</script>
+</body>
+</html>

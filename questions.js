@@ -1,0 +1,690 @@
+﻿window.QUESTIONS_DATA = {
+  "title": "A Nr. 90 Prüfungstrainer",
+  "questions": [
+    {
+      "id": 1,
+      "title": "Frage 1",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q01.jpg",
+      "correct": [
+        2,
+        4
+      ],
+      "optionCount": 7
+    },
+    {
+      "id": 2,
+      "title": "Frage 2",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q02.jpg",
+      "correct": [
+        3,
+        4
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 3,
+      "title": "Frage 3",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q03.jpg",
+      "correct": [
+        2
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 4,
+      "title": "Frage 4",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q04.jpg",
+      "correct": [
+        3,
+        5
+      ],
+      "optionCount": 5
+    },
+    {
+      "id": 5,
+      "title": "Frage 5",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q05.jpg",
+      "correct": [
+        1,
+        7
+      ],
+      "optionCount": 7
+    },
+    {
+      "id": 6,
+      "title": "Frage 6",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q06.jpg",
+      "correct": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 7,
+      "title": "Frage 7",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q07.jpg",
+      "correct": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 8,
+      "title": "Frage 8",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q08.jpg",
+      "correct": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 9,
+      "title": "Frage 9",
+      "points": 3,
+      "type": "matrix",
+      "image": "assets/q09.jpg",
+      "correct": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        1,
+        2
+      ],
+      "columns": [
+        "nicht geregelt",
+        "BBiG",
+        "Schulgesetz"
+      ],
+      "rows": [
+        "Ausbildender",
+        "Ausbildungsleiter",
+        "Ausbilder",
+        "Ausbilderarbeitskreis",
+        "Ausbildungsbeauftragte",
+        "Berater der zuständigen Stelle",
+        "Berufsbildungsausschuss",
+        "Berufsschullehrer",
+        "Fachkräfte",
+        "Lehrer für Fachpraxis",
+        "Nebenberuflicher Ausbilder",
+        "Prüfungsausschuss"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Frage 10",
+      "points": 3,
+      "type": "choice",
+      "image": "assets/q10.jpg",
+      "correct": [
+        1,
+        4,
+        5
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 11,
+      "title": "Frage 11",
+      "points": 4,
+      "type": "choice",
+      "image": "assets/q11.jpg",
+      "correct": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 12,
+      "title": "Frage 12",
+      "points": 4,
+      "type": "choice",
+      "image": "assets/q12.jpg",
+      "correct": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 13,
+      "title": "Frage 13",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q13.jpg",
+      "correct": [
+        5
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 14,
+      "title": "Frage 14",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q14.jpg",
+      "correct": [
+        3
+      ],
+      "optionCount": 5
+    },
+    {
+      "id": 15,
+      "title": "Frage 15",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q15.jpg",
+      "correct": [
+        1,
+        5
+      ],
+      "optionCount": 5
+    },
+    {
+      "id": 16,
+      "title": "Frage 16",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q16.jpg",
+      "correct": [
+        2
+      ],
+      "optionCount": 3
+    },
+    {
+      "id": 17,
+      "title": "Frage 17",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q17.jpg",
+      "correct": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 18,
+      "title": "Frage 18",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q18.jpg",
+      "correct": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 19,
+      "title": "Frage 19",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q19.jpg",
+      "correct": [
+        1
+      ],
+      "optionCount": 4
+    },
+    {
+      "id": 20,
+      "title": "Frage 20",
+      "points": 3,
+      "type": "choice",
+      "image": "assets/q20.jpg",
+      "correct": [
+        1,
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      "optionCount": 12
+    },
+    {
+      "id": 21,
+      "title": "Frage 21",
+      "points": 3,
+      "type": "choice",
+      "image": "assets/q21.jpg",
+      "correct": [
+        2,
+        5,
+        6
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 22,
+      "title": "Frage 22",
+      "points": 4,
+      "type": "choice",
+      "image": "assets/q22.jpg",
+      "correct": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "optionCount": 11
+    },
+    {
+      "id": 23,
+      "title": "Frage 23",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q23.jpg",
+      "correct": [
+        1,
+        4
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 24,
+      "title": "Frage 24",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q24.jpg",
+      "correct": [
+        1,
+        4
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 25,
+      "title": "Frage 25",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q25.jpg",
+      "correct": [
+        3
+      ],
+      "optionCount": 5
+    },
+    {
+      "id": 26,
+      "title": "Frage 26",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q26.jpg",
+      "correct": [
+        3
+      ],
+      "optionCount": 5
+    },
+    {
+      "id": 27,
+      "title": "Frage 27",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q27.jpg",
+      "correct": [
+        3
+      ],
+      "optionCount": 4
+    },
+    {
+      "id": 28,
+      "title": "Frage 28",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q28.jpg",
+      "correct": [
+        2
+      ],
+      "optionCount": 4
+    },
+    {
+      "id": 29,
+      "title": "Frage 29",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q29.jpg",
+      "correct": [
+        1,
+        4
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 30,
+      "title": "Frage 30",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q30.jpg",
+      "correct": [
+        3,
+        6
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 31,
+      "title": "Frage 31",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q31.jpg",
+      "correct": [
+        1,
+        5
+      ],
+      "optionCount": 5
+    },
+    {
+      "id": 32,
+      "title": "Frage 32",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q32.jpg",
+      "correct": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 33,
+      "title": "Frage 33",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q33.jpg",
+      "correct": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 34,
+      "title": "Frage 34",
+      "points": 2,
+      "type": "sequence",
+      "image": "assets/q34.jpg",
+      "correct": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "optionCount": 4,
+      "values": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Frage 35",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q35.jpg",
+      "correct": [
+        1,
+        4
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 36,
+      "title": "Frage 36",
+      "points": 3,
+      "type": "sequence",
+      "image": "assets/q36.jpg",
+      "correct": [
+        2,
+        3,
+        1,
+        6,
+        5,
+        4
+      ],
+      "optionCount": 6,
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Frage 37",
+      "points": 3,
+      "type": "choice",
+      "image": "assets/q37.jpg",
+      "correct": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "optionCount": 12
+    },
+    {
+      "id": 38,
+      "title": "Frage 38",
+      "points": 3,
+      "type": "choice",
+      "image": "assets/q38.jpg",
+      "correct": [
+        2,
+        6,
+        7,
+        8,
+        10,
+        12
+      ],
+      "optionCount": 12
+    },
+    {
+      "id": 39,
+      "title": "Frage 39",
+      "points": 4,
+      "type": "choice",
+      "image": "assets/q39.jpg",
+      "correct": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 40,
+      "title": "Frage 40",
+      "points": 4,
+      "type": "sequence",
+      "image": "assets/q40.jpg",
+      "correct": [
+        2,
+        3,
+        1,
+        1,
+        3,
+        1,
+        2,
+        1
+      ],
+      "optionCount": 8,
+      "values": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Frage 41",
+      "points": 4,
+      "type": "sequence",
+      "image": "assets/q41.jpg",
+      "correct": [
+        3,
+        5,
+        1,
+        4,
+        2,
+        7,
+        6,
+        8
+      ],
+      "optionCount": 8,
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Frage 42",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q42.jpg",
+      "correct": [
+        4
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 43,
+      "title": "Frage 43",
+      "points": 1,
+      "type": "choice",
+      "image": "assets/q43.jpg",
+      "correct": [
+        3
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 44,
+      "title": "Frage 44",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q44.jpg",
+      "correct": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "optionCount": 8
+    },
+    {
+      "id": 45,
+      "title": "Frage 45",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q45.jpg",
+      "correct": [
+        3
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 46,
+      "title": "Frage 46",
+      "points": 2,
+      "type": "choice",
+      "image": "assets/q46.jpg",
+      "correct": [
+        1,
+        3
+      ],
+      "optionCount": 6
+    },
+    {
+      "id": 47,
+      "title": "Frage 47",
+      "points": 3,
+      "type": "choice",
+      "image": "assets/q47.jpg",
+      "correct": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        10
+      ],
+      "optionCount": 10
+    },
+    {
+      "id": 48,
+      "title": "Frage 48",
+      "points": 4,
+      "type": "choice",
+      "image": "assets/q48.jpg",
+      "correct": [
+        2,
+        3,
+        8,
+        9
+      ],
+      "optionCount": 9
+    }
+  ]
+};
