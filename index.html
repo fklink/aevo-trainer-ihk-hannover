@@ -115,7 +115,14 @@ function inputHtml(qu){
 function selected(){const qu=q(); if(qu.type==='choice') return [...document.querySelectorAll('input:checked')].map(e=>+e.value).sort((a,b)=>a-b); return [...document.querySelectorAll('select')].map(e=>e.value?+e.value:null);}
 function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
 function check(){const qu=q(), s=selected(); const el=document.getElementById('result'); if(!hasSolution(qu)){el.className='result'; el.textContent='Für diese Frage ist keine Lösung hinterlegt.'; return;} const ok=equal(s,qu.correct); if(ok){el.className='result ok';el.textContent='Richtig.'; score+=qu.points;} else {el.className='result bad'; el.textContent='Noch nicht richtig. Deine Eingabe: '+fmt(s)+' - Lösung: '+fmt(qu.correct);} answered++;}
-function fmt(a){return '['+a.map(x=>x===null?'-':x).join(', ')+']'}
+function fmt(a,qu=q()){
+  const values=a.map(x=>{
+    if(x===null) return '-';
+    if(qu.type==='choice') return letters[x-1]||String(x);
+    return x;
+  });
+  return values.join(', ');
+}
 function showSolution(){const qu=q(); document.getElementById('result').className='result'; document.getElementById('result').textContent=hasSolution(qu)?'Lösung: '+fmt(qu.correct)+(qu.explanation?' - '+qu.explanation:''):'Für diese Frage ist keine Lösung hinterlegt.';}
 function next(){if(idx<order.length-1){idx++;render();}}
 function prev(){if(idx>0){idx--;render();}}
