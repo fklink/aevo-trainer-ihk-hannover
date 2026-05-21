@@ -105,13 +105,61 @@ function render(){
 
   html+='</div><div id="result" class="result"></div></main>';
 
-  if(qu.image){
+  if(qu.image || qu.answerImage){
+
     html+=`
-      <details class="image-panel image-panel-inline">
-        <summary>Originalbild anzeigen</summary>
-        <img class="question-img" src="${esc(qu.image)}" alt="${esc(qu.title)}">
-      </details>
+      <div class="image-tabs">
+
+        <div class="image-tab-buttons">
     `;
+
+    if(qu.image){
+      html+=`
+        <button class="secondary active"
+                id="tabQuestion"
+                onclick="showImageTab('question')">
+          Originalbild
+        </button>
+      `;
+    }
+
+    if(mode==='practice' && qu.answerImage){
+      html+=`
+        <button class="secondary ${!qu.image ? 'active' : ''}"
+                id="tabAnswer"
+                onclick="showImageTab('answer')">
+          Lösungsbild
+        </button>
+      `;
+    }
+
+    html+=`</div>`;
+
+    if(qu.image){
+      html+=`
+        <div id="questionTab"
+            class="image-tab-content"
+            style="display:none;">
+          <img class="question-img"
+              src="${esc(qu.image)}"
+              alt="${esc(qu.title)}">
+        </div>
+      `;
+    }
+
+    if(mode==='practice' && qu.answerImage){
+      html+=`
+        <div id="answerTab"
+            class="image-tab-content"
+            style="display:none;">
+          <img class="question-img"
+              src="${esc(qu.answerImage)}"
+              alt="Lösungsbild ${esc(qu.title)}">
+        </div>
+      `;
+    }
+
+    html+='</div>';
   }
 
   html+='</div>';
@@ -724,4 +772,43 @@ function showSolution(){
     hasSolution(qu)
       ? 'Die richtigen Antworten sind markiert.'
       : 'Für diese Frage ist keine Lösung hinterlegt.';
+}
+
+let currentImageTab = null;
+
+function showImageTab(tab){
+
+  const questionTab=document.getElementById('questionTab');
+  const answerTab=document.getElementById('answerTab');
+
+  const questionBtn=document.getElementById('tabQuestion');
+  const answerBtn=document.getElementById('tabAnswer');
+
+  const sameTab = currentImageTab === tab;
+
+  // alles ausblenden
+  if(questionTab) questionTab.style.display='none';
+  if(answerTab) answerTab.style.display='none';
+
+  if(questionBtn) questionBtn.classList.remove('active');
+  if(answerBtn) answerBtn.classList.remove('active');
+
+  // gleicher Tab erneut angeklickt -> komplett schließen
+  if(sameTab){
+    currentImageTab = null;
+    return;
+  }
+
+  // neuen Tab anzeigen
+  currentImageTab = tab;
+
+  if(tab==='question'){
+    if(questionTab) questionTab.style.display='block';
+    if(questionBtn) questionBtn.classList.add('active');
+  }
+
+  if(tab==='answer'){
+    if(answerTab) answerTab.style.display='block';
+    if(answerBtn) answerBtn.classList.add('active');
+  }
 }

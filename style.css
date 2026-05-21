@@ -266,6 +266,20 @@ button.active{
   margin-bottom:10px;
 }
 
+.image-tabs{
+  margin-top:20px;
+}
+
+.image-tab-buttons{
+  display:flex;
+  gap:10px;
+  margin-bottom:12px;
+}
+
+.image-tab-content{
+  text-align:center;
+}
+
 .question-img{
   display:block;
 
