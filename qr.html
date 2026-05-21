@@ -3,63 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>QR Code</title>
+
+  <title>QR-Code teilen</title>
+
+  <link rel="stylesheet" href="style.css">
 
   <style>
-    body{
-      font-family: Arial, sans-serif;
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
-      height:100vh;
-      margin:0;
-      background:#f5f5f5;
+    .qr-wrap{
+      max-width:600px;
+      margin:40px auto;
+      text-align:center;
     }
 
     #qrcode{
+      margin:30px auto;
+      width:220px;
       background:white;
       padding:20px;
       border-radius:12px;
-      box-shadow:0 2px 10px rgba(0,0,0,0.1);
     }
 
-    input{
-      width:320px;
-      padding:10px;
-      margin-bottom:20px;
-      border-radius:8px;
-      border:1px solid #ccc;
+    .share-link{
+      margin-top:20px;
+      word-break:break-all;
+      font-size:14px;
+    }
+
+    .actions{
+      margin-top:30px;
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      flex-wrap:wrap;
     }
   </style>
 </head>
+
 <body>
 
-<input id="urlInput"
-       value="https://fklink.github.io/aevo-session-9a2e7f/?share=2abf91">
+<div class="wrap">
+  <div class="card qr-wrap">
 
-<div id="qrcode"></div>
+    <h1>QR-Code teilen</h1>
+
+    <div id="qrcode"></div>
+
+    <div class="share-link" id="shareLink"></div>
+
+    <div class="actions">
+
+      <button onclick="copyLink()">
+        Link kopieren
+      </button>
+
+      <button class="secondary"
+              onclick="window.location.href='index.html?share=2abf91'">
+        Zurück
+      </button>
+
+    </div>
+
+  </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
 
 <script>
-const input = document.getElementById("urlInput");
-const qrDiv = document.getElementById("qrcode");
+const shareUrl =
+  window.location.origin +
+  window.location.pathname.replace("qr.html", "index.html") +
+  "?share=2abf91";
 
-let qr = new QRCode(qrDiv, {
-  text: input.value,
-  width: 256,
-  height: 256
+document.getElementById("shareLink").textContent = shareUrl;
+
+new QRCode(document.getElementById("qrcode"), {
+  text: shareUrl,
+  width: 220,
+  height: 220
 });
 
-input.addEventListener("input", () => {
-  qrDiv.innerHTML = "";
-  qr = new QRCode(qrDiv, {
-    text: input.value,
-    width: 256,
-    height: 256
-  });
-});
+function copyLink() {
+
+  navigator.clipboard.writeText(shareUrl);
+
+  alert("Link kopiert");
+}
 </script>
 
 </body>
