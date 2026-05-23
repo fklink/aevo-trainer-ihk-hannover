@@ -19,30 +19,40 @@
 </head>
 
 <body>
+<div id="drawerBackdrop" class="drawer-backdrop" onclick="closeMenu()"></div>
+
+<aside id="appDrawer" class="app-drawer">
+  <div class="drawer-header">
+    <strong>AEVO Prüfungstrainer</strong>
+    <button class="icon-btn" type="button" aria-label="Menü schließen" onclick="closeMenu()">×</button>
+  </div>
+
+  <nav class="drawer-nav">
+    <button id="practiceBtn" type="button" onclick="setMode('practice'); closeMenu()">Üben</button>
+    <button id="examBtn" class="secondary" type="button" onclick="setMode('exam'); closeMenu()">Prüfung</button>
+  </nav>
+
+  <hr>
+
+  <nav class="drawer-nav">
+    <button class="secondary" type="button" onclick="window.location.href='qr.html?share=2abf91'">Link teilen</button>
+    <button id="editorBtn" class="secondary" type="button" onclick="openEditor(); closeMenu()">Editor</button>
+  </nav>
+</aside>
+
 <div class="wrap">
-  <header>
-    <div>
+  <header class="appbar">
+    <button class="icon-btn" id="menuBtn" type="button" aria-label="Menü öffnen" onclick="toggleMenu()">☰</button>
+
+    <div class="appbar-title">
       <h1>AEVO Prüfungstrainer</h1>
       <div id="meta" class="muted"></div>
     </div>
-
-    <div class="btn-groups">
-
-      <!-- obere Zeile -->
-      <div class="btn-row">
-        <button id="practiceBtn" onclick="setMode('practice')">Üben</button>
-        <button id="examBtn" class="secondary" onclick="setMode('exam')">Prüfung</button>
-        <button id="editorBtn" class="secondary" onclick="openEditor()">Editor</button>
-        <button class="secondary" onclick="window.location.href='qr.html?share=2abf91'">QR-Code</button>
-      </div>
-
-      <!-- untere Zeile -->
-      <div class="btn-row" id="modeActions">
-        <!-- wird dynamisch gefüllt -->
-      </div>
-
-    </div>
   </header>
+
+  <div class="toolbar">
+    <div class="btn-row" id="modeActions"></div>
+  </div>
 
   <div class="card" id="app">Lade Fragen...</div>
 </div>

@@ -201,6 +201,36 @@ def source_comments(meta_item, source_answers):
     return " ".join(unique) or None
 
 
+def apply_known_corrections(question):
+    if question.get("source") == "originals/Prüfungsfragen HF bezogen/Aufgaben der BBS.pdf":
+        question["options"] = [
+            "Die Berufsschule vermittelt ausschließlich Fachbildung.",
+            "Die Berufsschule vergibt nur den Realschulabschluss.",
+            "Die Berufsschule soll die Bereitschaft wecken, sich fortzubilden.",
+            "Der Berufsschulunterricht ist freiwillig.",
+            "Die Berufsschule vergibt Schulabschlüsse, die denen der allgemeinbildenden Schule gleichwertig sind.",
+            "Die Gesamtnote des Berufsschulabschlusszeugnisses kann auf das Abschlusszeugnis der zuständigen Stelle übernommen werden.",
+            "Der Besuch der Berufsfachschule verkürzt auf jeden Fall die Ausbildungsdauer.",
+            "Die Berufsschule soll die Bereitschaft fördern, sich im öffentlichen Leben verantwortungsbewusst zu verhalten.",
+        ]
+        question["optionCount"] = len(question["options"])
+        question["ocrLines"] = [
+            line.replace("Der Berufsschuluntericht", "Der Berufsschulunterricht")
+            for line in question.get("ocrLines", [])
+        ]
+        question["ocrText"] = clean_text(" ".join(question["ocrLines"]))
+
+
+def refresh_processed_text(question):
+    parts = [
+        question.get("question", ""),
+        question.get("task", ""),
+        " ".join(question.get("options") or []),
+        " ".join(question.get("rows") or []),
+    ]
+    question["ocrText"] = clean_text(" ".join(part for part in parts if part))
+
+
 def visible_answer_box_count(meta_item):
     boxes, image_width, _ = detect_answer_boxes(ROOT / meta_item["image"])
     right_column = [
@@ -217,7 +247,11 @@ def main():
     source_answers = json.loads((ROOT / "source-answers.json").read_text(encoding="utf-8-sig"))["answers"]
     ocr_by_name = {item["name"]: item for item in ocr_items}
 
-    data = json.loads(questions_path.read_text(encoding="utf-8-sig"))
+    if questions_path.exists():
+        data = json.loads(questions_path.read_text(encoding="utf-8-sig"))
+    else:
+        data = {"questions": []}
+
     manual_by_source = {
         question["source"]: question
         for question in data["questions"]
@@ -232,11 +266,13 @@ def main():
         item = ocr_by_name.get(image_name) or ocr_by_name.get(legacy_image_name)
         if not item:
             continue
-        prompt, answer_lines = split_ocr(item.get("lines") or [])
-        task = extract_task_text(item.get("lines") or [])
+        ocr_lines = [clean_text(line) for line in (item.get("lines") or []) if clean_text(line)]
+        prompt, answer_lines = split_ocr(ocr_lines)
+        task = extract_task_text(ocr_lines)
         if not prompt:
             prompt = clean_text(item.get("text", ""))
-        qtype = infer_type(meta_item["title"], item.get("text", ""))
+        ocr_text = clean_text(" ".join(ocr_lines) or item.get("text", ""))
+        qtype = infer_type(meta_item["title"], ocr_text)
         answer_box_count = visible_answer_box_count(meta_item)
         handlungsfeld = handlungsfeld_from_category(meta_item.get("category", ""))
         answer_image = Path("assets_answers") / Path(meta_item["image"]).name
@@ -244,13 +280,13 @@ def main():
             "id": next_id,
             "title": f"Frage {next_id}",
             "sourceTitle": meta_item["title"],
-            "points": points_from_text(item.get("text", "")),
+            "points": points_from_text(ocr_text),
             "type": qtype,
             "image": meta_item["image"],
             "question": prompt,
             "task": task,
-            "ocrText": clean_text(item.get("text", "")),
-            "ocrLines": item.get("lines") or [],
+            "ocrText": ocr_text,
+            "ocrLines": ocr_lines,
             "source": meta_item["source"],
             "category": meta_item["category"],
             "solutionAvailable": False,
@@ -259,7 +295,7 @@ def main():
             question["answerImage"] = str(answer_image).replace("\\", "/")
         if handlungsfeld:
             question["handlungsfeld"] = handlungsfeld
-        original_number = source_question_number(item.get("text", ""))
+        original_number = source_question_number(ocr_text)
         if original_number:
             question["sourceQuestionNumber"] = original_number
         if qtype == "choice":
@@ -295,6 +331,8 @@ def main():
         if meta_item["source"] in manual_by_source:
             question = manual_by_source[meta_item["source"]]
 
+        apply_known_corrections(question)
+        refresh_processed_text(question)
         imported.append(question)
         next_id += 1
 

@@ -7,36 +7,6 @@
   <title>QR-Code teilen</title>
 
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    .qr-wrap{
-      max-width:600px;
-      margin:40px auto;
-      text-align:center;
-    }
-
-    #qrcode{
-      margin:30px auto;
-      width:220px;
-      background:white;
-      padding:20px;
-      border-radius:12px;
-    }
-
-    .share-link{
-      margin-top:20px;
-      word-break:break-all;
-      font-size:14px;
-    }
-
-    .actions{
-      margin-top:30px;
-      display:flex;
-      gap:12px;
-      justify-content:center;
-      flex-wrap:wrap;
-    }
-  </style>
 </head>
 
 <body>
@@ -52,11 +22,12 @@
 
     <div class="actions">
 
-      <button onclick="copyLink()">
+      <button type="button" onclick="copyLink()">
         Link kopieren
       </button>
 
       <button class="secondary"
+              type="button"
               onclick="window.location.href='index.html?share=2abf91'">
         Zurück
       </button>
@@ -66,7 +37,7 @@
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js" defer></script>
 
 <script>
 const shareUrl =
@@ -76,17 +47,28 @@ const shareUrl =
 
 document.getElementById("shareLink").textContent = shareUrl;
 
-new QRCode(document.getElementById("qrcode"), {
-  text: shareUrl,
-  width: 220,
-  height: 220
+window.addEventListener("load", () => {
+  const target = document.getElementById("qrcode");
+
+  if (!window.QRCode) {
+    target.textContent = "QR-Code konnte nicht geladen werden. Bitte nutze den Link darunter.";
+    return;
+  }
+
+  new QRCode(target, {
+    text: shareUrl,
+    width: 220,
+    height: 220
+  });
 });
 
-function copyLink() {
-
-  navigator.clipboard.writeText(shareUrl);
-
-  alert("Link kopiert");
+async function copyLink() {
+  try {
+    await navigator.clipboard.writeText(shareUrl);
+    alert("Link kopiert");
+  } catch (error) {
+    window.prompt("Link kopieren:", shareUrl);
+  }
 }
 </script>
 

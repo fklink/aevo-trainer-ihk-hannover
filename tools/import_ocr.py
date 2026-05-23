@@ -10,6 +10,9 @@ QUESTION_RE = re.compile(r"^Frage\s+(\d+):?$", re.IGNORECASE)
 def clean_text(value):
     value = re.sub(r"\s+", " ", value or "").strip()
     value = value.replace(" ,", ",").replace(" .", ".")
+    value = re.sub(r"\bAn[Ww]ort\b", "Antwort", value)
+    value = re.sub(r"\bAn[Ww]orten\b", "Antworten", value)
+    value = re.sub(r"\bkitte\b", "Bitte", value)
     return value
 
 
@@ -77,6 +80,8 @@ def is_continuation_line(previous, line):
     line = clean_text(line)
     if not previous or not line:
         return False
+    if line[0].islower():
+        return True
     if previous.endswith((",", ";", ":", "-", "–")):
         return True
     if re.search(r"\b(und|oder|sowie|mit|ohne|durch|für|fÃ¼r|bei|im|in|der|die|das|den|dem|des|ein|eine|einen|einem|einer)$", previous):
@@ -86,6 +91,32 @@ def is_continuation_line(previous, line):
     if re.match(r"^[a-zÃ¤Ã¶Ã¼ÃŸ]", line):
         return True
     return False
+
+
+def is_missing_period_boundary(previous, line):
+    previous = clean_text(previous)
+    line = clean_text(line)
+
+    if not previous or not line:
+        return False
+    if previous.endswith((".", "!", "?", ",", ";", ":", "-")):
+        return False
+    if is_continuation_line(previous, line):
+        return False
+    if len(previous) > 130:
+        return False
+    if len(re.findall(r"\w+", previous, flags=re.UNICODE)) < 5:
+        return False
+
+    return bool(re.match(r"^(Auf|Aus|Bei|Da|Das|Der|Die|Ein|Eine|Es|Im|In|Nur|Tobias|[A-ZÄÖÜ][a-zäöüß]+)\b", line))
+
+
+def finish_sentence(value):
+    value = clean_text(value)
+    word_count = len(re.findall(r"\w+", value, flags=re.UNICODE))
+    if value and word_count >= 5 and not value.endswith((".", "!", "?")):
+        return value + "."
+    return value
 
 
 def split_ocr(lines):
@@ -122,10 +153,12 @@ def group_rows(lines, expected_count):
         remaining_groups = expected_count - len(groups)
         previous = current[-1]
         continuation = is_continuation_line(previous, line)
+        missing_period_boundary = is_missing_period_boundary(previous, line)
         starts_new = previous.endswith((".", "!", "?")) and len(groups) + 1 < expected_count
         must_split = remaining_lines <= remaining_groups and not continuation
-        if (starts_new and not continuation) or must_split:
-            groups.append(clean_text(" ".join(current)))
+        if missing_period_boundary or (starts_new and not continuation) or must_split:
+            group_text = clean_text(" ".join(current))
+            groups.append(finish_sentence(group_text) if missing_period_boundary else group_text)
             current = [line]
         else:
             current.append(line)

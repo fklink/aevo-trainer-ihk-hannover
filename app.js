@@ -1,14 +1,38 @@
-let data, order=[], idx=0, mode='practice', answers={}, practiceResults={}, examSubmitted=false, examError='';
+let data, order=[], idx=0, mode='practice', answers={}, practiceResults={}, examSubmitted=false, examError='', currentImageTab=null;
 const letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-const EDITOR_PASSWORD='aevo-editor';
+const EDITOR_PASSWORD='fkl';
 loadQuestions();
 
-function start(j){data=j; resetProgress();}
+/* -------------------------------------------------- */
+/* Daten und Basis-Helfer */
+/* -------------------------------------------------- */
+
+function start(j){
+  if(!j||!Array.isArray(j.questions)){
+    showLoadError('Die Fragendaten haben kein gültiges Format.');
+    return;
+  }
+
+  data=j;
+  resetProgress();
+}
+
+function showLoadError(message){
+  const app=document.getElementById('app');
+  if(!app) return;
+
+  app.innerHTML=`<strong>Fragen konnten nicht geladen werden.</strong><p>${esc(message)}</p>`;
+}
+
 function loadQuestions(){
   if(window.QUESTIONS_DATA){start(window.QUESTIONS_DATA); return;}
-  fetch('questions.json').then(r=>r.json()).then(start).catch(()=>{
-    document.getElementById('app').innerHTML='<strong>Fragen konnten nicht geladen werden.</strong><p>Die Datei questions.js fehlt. Lege sie neben index.html ab oder starte einen lokalen Webserver.</p>';
-  });
+  fetch('questions.json')
+    .then(r=>{
+      if(!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(start)
+    .catch(()=>showLoadError('Die Datei questions.json fehlt oder ist nicht lesbar. Lege sie neben index.html ab oder starte einen lokalen Webserver.'));
 }
 function q(){return data.questions[order[idx]]}
 function key(){return String(order[idx])}
@@ -29,15 +53,54 @@ function importWarnings(qu){
 }
 
 function showImportWarnings(){
-  const qu=q();
-  const warnings=importWarnings(qu);
 
-  if(!warnings.length){
+  const qu=q();
+
+  const issues = Array.isArray(qu.qualityIssues)
+    ? qu.qualityIssues
+    : [];
+
+  const warnings = importWarnings(qu);
+
+  let lines = [];
+
+  if(warnings.length){
+    lines.push('=== Importwarnungen ===');
+    lines.push(...warnings);
+    lines.push('');
+  }
+
+  if(issues.length){
+
+    lines.push('=== Qualitätsprobleme ===');
+
+    issues.forEach((issue, index) => {
+
+      let line = `${index + 1}. [${issue.type}]`;
+
+      if(issue.field){
+        line += ` ${issue.field}`;
+      }
+
+      if(issue.value){
+        line += ` -> ${issue.value}`;
+      }
+
+      if(issue.suggestion){
+        line += `\n   Vorschlag: ${issue.suggestion}`;
+      }
+
+      lines.push(line);
+    });
+
+  }
+
+  if(!lines.length){
     alert('Keine Warnungen vorhanden.');
     return;
   }
 
-  alert(warnings.join('\n'));
+  alert(lines.join('\n'));
 }
 
 function importWarningsHtml(qu){
@@ -47,6 +110,10 @@ function importWarningsHtml(qu){
 }
 
 function cleanRows(qu){return Array.isArray(qu.rows)?qu.rows.map(r=>String(r??'').trim()).filter(Boolean):[]}
+
+/* -------------------------------------------------- */
+/* Hauptansicht */
+/* -------------------------------------------------- */
 
 function canRenderInputs(qu){
   if(qu.type==='choice') return Array.isArray(qu.options)&&qu.options.length>0;
@@ -71,11 +138,12 @@ function render(){
 
   if(examError){
     document.getElementById('meta').textContent='Prüfungsmodus';
-    document.getElementById('app').innerHTML=`<div class="question-note">${esc(examError)}</div><div class="btns"><button onclick="setMode('practice')">Zum Üben</button></div>`;
+    document.getElementById('app').innerHTML=`<div class="question-note">${esc(examError)}</div><div class="btns"><button type="button" onclick="setMode('practice')">Zum Üben</button></div>`;
     return;
   }
 
   const qu=q();
+  currentImageTab=null;
   document.getElementById('meta').textContent=`${modeLabel()} - Frage ${idx+1} von ${order.length} - Punkte: ${currentScore()}/${totalPoints()}`;
 
   let html=`<div><span class="pill">${esc(qu.title)}</span>`;
@@ -97,11 +165,11 @@ function render(){
 
   html+='<div class="btns">';
 
-  if(mode==='practice'&&hasSolution(qu)&&canRenderInputs(qu)) html+='<button class="good" onclick="check()">Prüfen</button>';
+  if(mode==='practice'&&hasSolution(qu)&&canRenderInputs(qu)) html+='<button class="good" type="button" onclick="check()">Prüfen</button>';
 
-  html+='<button class="secondary" onclick="prev()">Zurück</button><button onclick="next()">Weiter</button>';
+  html+='<button class="secondary" type="button" onclick="prev()">Zurück</button><button type="button" onclick="next()">Weiter</button>';
 
-  if(mode==='practice'&&hasSolution(qu)) html+='<button class="warn" onclick="showSolution()">Lösung anzeigen</button>';
+  if(mode==='practice'&&hasSolution(qu)) html+='<button class="warn" type="button" onclick="showSolution()">Lösung anzeigen</button>';
 
   html+='</div><div id="result" class="result"></div></main>';
 
@@ -115,7 +183,8 @@ function render(){
 
     if(qu.image){
       html+=`
-        <button class="secondary active"
+        <button class="secondary"
+                type="button"
                 id="tabQuestion"
                 onclick="showImageTab('question')">
           Originalbild
@@ -125,7 +194,8 @@ function render(){
 
     if(mode==='practice' && qu.answerImage){
       html+=`
-        <button class="secondary ${!qu.image ? 'active' : ''}"
+        <button class="secondary"
+                type="button"
                 id="tabAnswer"
                 onclick="showImageTab('answer')">
           Lösungsbild
@@ -175,22 +245,22 @@ function renderModeActions(){
   if(mode==='practice'){
     el.innerHTML=`
       <div id="jump" class="jump-control"></div>
-      <button class="secondary" onclick="shuffleQuestions()">Mischen</button>
-      <button class="danger" onclick="resetProgress()">Zurücksetzen</button>
+      <button class="secondary" type="button" onclick="shuffleQuestions()">Mischen</button>
+      <button class="danger" type="button" onclick="resetProgress()">Zurücksetzen</button>
     `;
   }
 
   else if(mode==='exam'){
     el.innerHTML=`
-      <button class="good" onclick="submitExam()">Prüfung abgeben</button>
-      <button class="danger" onclick="setMode('exam')">Neue Prüfung starten</button>
+      <button class="good" type="button" onclick="submitExam()">Prüfung abgeben</button>
+      <button class="danger" type="button" onclick="setMode('exam')">Neue Prüfung starten</button>
     `;
   }
 
   else if(mode==='editor'){
     el.innerHTML=`
       <div id="jump" class="jump-control"></div>
-      <button class="warn" onclick="showImportWarnings()">Warnungen</button>
+      <button class="warn" type="button" onclick="showImportWarnings()">Warnungen</button>
     `;
   }
 }
@@ -200,7 +270,7 @@ function renderJumpControl(){
   if(!el) return;
   if(!data||mode==='exam'){el.innerHTML=''; return;}
 
-  el.innerHTML='<label for="jumpQuestion" class="muted">Frage</label><input id="jumpQuestion" type="number" min="1" placeholder="Nr."><button class="secondary" onclick="jumpToQuestion()">Aufrufen</button>';
+  el.innerHTML='<label for="jumpQuestion" class="muted">Frage</label><input id="jumpQuestion" type="number" min="1" placeholder="Nr."><button class="secondary" type="button" onclick="jumpToQuestion()">Aufrufen</button>';
 
   document.getElementById('jumpQuestion').onkeydown=event=>{
     if(event.key==='Enter') jumpToQuestion();
@@ -275,6 +345,10 @@ function setModeButtons(){
 }
 
 function typeLabel(t){return t==='choice'?'Auswahlfrage':t==='matrix'?'Rasterfrage':'Zuordnungs-/Reihenfolgefrage'}
+
+/* -------------------------------------------------- */
+/* Eingaben und Antworten */
+/* -------------------------------------------------- */
 
 function inputHtml(qu){
   if(qu.type==='choice'){
@@ -388,14 +462,9 @@ function fmt(a,qu=q()){
   return values.join(', ');
 }
 
-function showSolution(){
-  const qu=q();
-
-  document.getElementById('result').className='result';
-  document.getElementById('result').textContent=hasSolution(qu)
-    ? 'Lösung: '+fmt(qu.correct)+(qu.explanation?' - '+qu.explanation:'')
-    : 'Für diese Frage ist keine Lösung hinterlegt.';
-}
+/* -------------------------------------------------- */
+/* Editor */
+/* -------------------------------------------------- */
 
 function openEditor(){
   const password=prompt('Editor-Kennwort');
@@ -416,15 +485,19 @@ function renderEditor(){
 
   document.getElementById('meta').textContent=`Editormodus - Frage ${idx+1} von ${order.length}`;
 
-  let html=`<div><span class="pill">${esc(qu.title)}</span><span class="pill">ID ${esc(qu.id)}</span><span class="pill">HF ${esc(qu.handlungsfeld??'-')}</span>`;
-
+  let html='<div class="editor-header">';
+  html+=`<span class="pill">${esc(qu.title)}</span>`;
+  html+=`<span class="pill">ID ${esc(qu.id)}</span>`;
+  html+=`<span class="pill">HF ${esc(qu.handlungsfeld??'-')}</span>`;
   if(qu.manualEdited) html+='<span class="pill">manuell editiert</span>';
+  html+=renderIssueBadges(qu);
+  html+='</div>';
 
-  html+='</div><div class="editor-grid"><main class="editor-form">';
+  html+='<div class="btns editor-actions"><button class="good" type="button" onclick="saveEditor()">Änderungen übernehmen</button><button class="secondary" type="button" onclick="editorPrev()">Zurück</button><button type="button" onclick="editorNext()">Weiter</button><button class="warn" type="button" onclick="exportQuestionsJson()">questions.json exportieren</button><button class="warn" type="button" onclick="exportQuestionsJs()">questions.js exportieren</button></div>';
+  html+='<div class="editor-grid"><main class="editor-form">';
   html+=importWarningsHtml(qu);
   html+=`<div class="field"><label for="editorQuestion">Fragetext</label><textarea id="editorQuestion">${esc(questionText(qu))}</textarea></div>`;
   html+=editorAnswerFields(qu);
-  html+='<div class="btns"><button class="good" onclick="saveEditor()">Änderungen übernehmen</button><button class="secondary" onclick="editorPrev()">Zurück</button><button onclick="editorNext()">Weiter</button><button class="warn" onclick="exportQuestionsJson()">questions.json exportieren</button><button class="warn" onclick="exportQuestionsJs()">questions.js exportieren</button></div>';
   html+='<div id="editorResult" class="result"></div></main><aside class="image-panel">';
   html+='<details open><summary>Lösungsbogen</summary>';
   html+=qu.answerImage?`<img class="question-img" src="${esc(qu.answerImage)}" alt="Lösungsbogen ${esc(qu.title)}">`:'<div class="question-note">Für diese Frage ist kein separates Lösungsbogen-Bild hinterlegt.</div>';
@@ -579,6 +652,10 @@ function downloadFile(filename,content,type){
   URL.revokeObjectURL(url);
 }
 
+/* -------------------------------------------------- */
+/* Navigation und Fortschritt */
+/* -------------------------------------------------- */
+
 function next(){
   saveAnswer();
 
@@ -707,6 +784,10 @@ function submitExam(){
   render();
 }
 
+/* -------------------------------------------------- */
+/* Auswertung und Darstellung */
+/* -------------------------------------------------- */
+
 function renderExamResult(){
   const max=totalPoints();
   const score=currentScore();
@@ -774,8 +855,6 @@ function showSolution(){
       : 'Für diese Frage ist keine Lösung hinterlegt.';
 }
 
-let currentImageTab = null;
-
 function showImageTab(tab){
 
   const questionTab=document.getElementById('questionTab');
@@ -786,7 +865,7 @@ function showImageTab(tab){
 
   const sameTab = currentImageTab === tab;
 
-  // alles ausblenden
+  // Tabs ausblenden
   if(questionTab) questionTab.style.display='none';
   if(answerTab) answerTab.style.display='none';
 
@@ -799,7 +878,7 @@ function showImageTab(tab){
     return;
   }
 
-  // neuen Tab anzeigen
+  // Neuen Tab anzeigen
   currentImageTab = tab;
 
   if(tab==='question'){
@@ -812,3 +891,84 @@ function showImageTab(tab){
     if(answerBtn) answerBtn.classList.add('active');
   }
 }
+/* -------------------------------------------------- */
+/* QUALITY MARKERS */
+/* -------------------------------------------------- */
+
+const issueLabels = {
+  ocr_word: 'OCR-Wort',
+  missing_letter: 'Fehlender Buchstabe',
+  missing_hyphen: 'Bindestrich',
+  stray_character: 'Fremdzeichen',
+  suspicious_character: 'Sonderzeichen',
+  mixed_case_ocr: 'Groß/Klein',
+  letter_case_inside_word: 'Wortbruch',
+  double_space: 'Doppeltes Leerzeichen',
+  space_before_punctuation: 'Leerzeichen vor Satzzeichen',
+  empty_option: 'Leere Antwort',
+  many_empty_options: 'Viele leere Antworten',
+  option_count_mismatch: 'Antwortanzahl',
+  correct_count_mismatch: 'Lösungsanzahl',
+  possibly_merged_options: 'Antworten zusammengeführt',
+  existing_import_warning: 'Importwarnung'
+};
+
+function issueSeverity(type) {
+  if ([
+    'correct_count_mismatch',
+    'option_count_mismatch',
+    'empty_option',
+    'many_empty_options',
+    'possibly_merged_options',
+    'existing_import_warning'
+  ].includes(type)) return 'critical';
+
+  if ([
+    'ocr_word',
+    'missing_letter',
+    'stray_character',
+    'suspicious_character',
+    'letter_case_inside_word',
+    'mixed_case_ocr'
+  ].includes(type)) return 'warning';
+
+  if ([
+    'missing_hyphen',
+    'double_space',
+    'space_before_punctuation'
+  ].includes(type)) return 'info';
+
+  return 'info';
+}
+
+function renderIssueBadges(qu) {
+  const flags = Array.isArray(qu.qualityFlags) ? qu.qualityFlags : [];
+
+  if (!flags.length) {
+    return '<span class="issue-badge issue-ok">Keine markierten Fehler</span>';
+  }
+
+  return flags.map(flag => {
+    const label = issueLabels[flag] || flag;
+    const severity = issueSeverity(flag);
+    return `<span class="issue-badge issue-${severity}" title="${esc(flag)}">${esc(label)}</span>`;
+  }).join('');
+}
+
+/* -------------------------------------------------- */
+/* APP MENU */
+/* -------------------------------------------------- */
+
+function toggleMenu(){
+  document.getElementById('appDrawer')?.classList.toggle('open');
+  document.getElementById('drawerBackdrop')?.classList.toggle('open');
+}
+
+function closeMenu(){
+  document.getElementById('appDrawer')?.classList.remove('open');
+  document.getElementById('drawerBackdrop')?.classList.remove('open');
+}
+
+document.addEventListener('keydown', event => {
+  if(event.key === 'Escape') closeMenu();
+});
